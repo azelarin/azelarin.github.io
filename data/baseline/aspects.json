@@ -56,7 +56,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Coursing Restraints gains +1s Duration.",
+          "description": "Coursing Restraints gains +1s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Coursing Restraints",
@@ -69,7 +69,7 @@
         },
         {
           "threshold": 15,
-          "description": "Coursing Restraints gains +1.65s Duration.",
+          "description": "Coursing Restraints gains +1.65s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Coursing Restraints",
@@ -82,7 +82,7 @@
         },
         {
           "threshold": 75,
-          "description": "Coursing Restraints gains +2s Duration.",
+          "description": "Coursing Restraints gains +2s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Coursing Restraints",
@@ -154,7 +154,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Phantom Ray gains +0.2s Duration.",
+          "description": "Phantom Ray gains +0.2s </br>Duration.",
           "abilities": [
             {
               "dependencies": [
@@ -170,7 +170,7 @@
         },
         {
           "threshold": 15,
-          "description": "Phantom Ray gains +0.3s Duration.",
+          "description": "Phantom Ray gains +0.3s </br>Duration.",
           "abilities": [
             {
               "dependencies": [
@@ -186,7 +186,7 @@
         },
         {
           "threshold": 75,
-          "description": "Phantom Ray gains +0.4s Duration.",
+          "description": "Phantom Ray gains +0.4s </br>Duration.",
           "abilities": [
             {
               "dependencies": [
@@ -297,7 +297,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Grape Bomb deals additional damage. </br> </br><span class='mc-white'>Total Damage</span>: +25% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +25%)",
+          "description": "Grape Bomb deals additional damage.  </br><span class='mc-white'>Total Damage</span>: +25% (of your DPS) </br>&emsp;(<span class='nDam'>Damage</span>: +25%)",
           "abilities": [
             {
               "base_abil": "Arrow Bomb",
@@ -323,7 +323,7 @@
         },
         {
           "threshold": 15,
-          "description": "Grape Bomb deals additional damage. </br> Grape Bomb gains +1 grape. </br> </br><span class='mc-white'>Total Damage</span>: +25% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +25%)",
+          "description": "Grape Bomb deals additional damage.  Grape Bomb gains +1 grape.  </br><span class='mc-white'>Total Damage</span>: +25% (of your DPS) </br>&emsp;(<span class='nDam'>Damage</span>: +25%)",
           "abilities": [
             {
               "base_abil": "Arrow Bomb",
@@ -358,7 +358,7 @@
         },
         {
           "threshold": 75,
-          "description": "Grape Bomb deals additional damage. </br> Grape Bomb gains +1 grape. </br> </br><span class='mc-white'>Total Damage</span>: +45% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +45%)",
+          "description": "Grape Bomb deals additional damage.  Grape Bomb gains +1 grape.  </br><span class='mc-white'>Total Damage</span>: +45% (of your DPS) </br>&emsp;(<span class='nDam'>Damage</span>: +45%)",
           "abilities": [
             {
               "base_abil": "Arrow Bomb",
@@ -403,7 +403,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Bryophyte Roots gains +0.5 Area of Effect.",
+          "description": "Bryophyte Roots gains +0.5 </br>Area of Effect.",
           "abilities": [
             {
               "dependencies": [
@@ -419,7 +419,7 @@
         },
         {
           "threshold": 5,
-          "description": "Bryophyte Roots gains +0.85 Area of Effect.",
+          "description": "Bryophyte Roots gains +0.85 </br>Area of Effect.",
           "abilities": [
             {
               "dependencies": [
@@ -435,7 +435,7 @@
         },
         {
           "threshold": 30,
-          "description": "Bryophyte Roots gains +1.2 Area of Effect.",
+          "description": "Bryophyte Roots gains +1.2 </br>Area of Effect.",
           "abilities": [
             {
               "dependencies": [
@@ -451,7 +451,7 @@
         },
         {
           "threshold": 150,
-          "description": "Bryophyte Roots gains +1.5 Area of Effect.",
+          "description": "Bryophyte Roots gains +1.5 </br>Area of Effect.",
           "abilities": [
             {
               "dependencies": [
@@ -477,7 +477,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Snow Storm gains +1 Range.",
+          "description": "Snow Storm gains +1 </br>Range.",
           "abilities": [
             {
               "dependencies": [
@@ -492,7 +492,7 @@
         },
         {
           "threshold": 5,
-          "description": "Snow Storm gains +1.75 Range.",
+          "description": "Snow Storm gains +1.75 </br>Range.",
           "abilities": [
             {
               "dependencies": [
@@ -507,7 +507,7 @@
         },
         {
           "threshold": 30,
-          "description": "Snow Storm gains +2.5 Range.",
+          "description": "Snow Storm gains +2.5 </br>Range.",
           "abilities": [
             {
               "dependencies": [
@@ -522,7 +522,7 @@
         },
         {
           "threshold": 150,
-          "description": "Snow Storm gains +3 Range.",
+          "description": "Snow Storm gains +3 </br>Range.",
           "abilities": [
             {
               "dependencies": [
@@ -609,7 +609,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Arrow Storm gains velocity and 8% reduced spread. </br> Phantom Ray gains +2 Range.",
+          "description": "Arrow Storm gains velocity and 8% reduced spread.  Phantom Ray gains +2 </br>Range.",
           "abilities": [
             {
               "base_abil": "Phantom Ray",
@@ -622,7 +622,7 @@
         },
         {
           "threshold": 5,
-          "description": "Arrow Storm gains velocity and 17% reduced spread. </br> Phantom Ray gains +3.5 Range.",
+          "description": "Arrow Storm gains velocity and 17% reduced spread.  Phantom Ray gains +3.5 </br>Range.",
           "abilities": [
             {
               "base_abil": "Phantom Ray",
@@ -635,7 +635,7 @@
         },
         {
           "threshold": 30,
-          "description": "Arrow Storm gains velocity and 25% reduced spread. </br> Phantom Ray gains +5 Range.",
+          "description": "Arrow Storm gains velocity and 25% reduced spread.  Phantom Ray gains +5 </br>Range.",
           "abilities": [
             {
               "base_abil": "Phantom Ray",
@@ -648,7 +648,7 @@
         },
         {
           "threshold": 150,
-          "description": "Arrow Storm gains velocity and 34% reduced spread. </br> Phantom Ray gains +6 Range.",
+          "description": "Arrow Storm gains velocity and 34% reduced spread.  Phantom Ray gains +6 </br>Range.",
           "abilities": [
             {
               "base_abil": "Phantom Ray",
@@ -671,7 +671,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Fierce Stomp gains +1.25 Area of Effect.",
+          "description": "Fierce Stomp gains +1.25 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Escape",
@@ -687,7 +687,7 @@
         },
         {
           "threshold": 5,
-          "description": "Fierce Stomp gains +2.25 Area of Effect.",
+          "description": "Fierce Stomp gains +2.25 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Escape",
@@ -703,7 +703,7 @@
         },
         {
           "threshold": 30,
-          "description": "Fierce Stomp gains +3.25 Area of Effect.",
+          "description": "Fierce Stomp gains +3.25 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Escape",
@@ -719,7 +719,7 @@
         },
         {
           "threshold": 150,
-          "description": "Fierce Stomp gains +4 Area of Effect.",
+          "description": "Fierce Stomp gains +4 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Escape",
@@ -745,7 +745,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Arrow Bomb gains +0.5 Area of Effect.",
+          "description": "Arrow Bomb gains +0.5 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Arrow Bomb",
@@ -758,7 +758,7 @@
         },
         {
           "threshold": 5,
-          "description": "Arrow Bomb gains +0.85 Area of Effect.",
+          "description": "Arrow Bomb gains +0.85 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Arrow Bomb",
@@ -771,7 +771,7 @@
         },
         {
           "threshold": 30,
-          "description": "Arrow Bomb gains +1.2 Area of Effect.",
+          "description": "Arrow Bomb gains +1.2 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Arrow Bomb",
@@ -784,7 +784,7 @@
         },
         {
           "threshold": 150,
-          "description": "Arrow Bomb gains +1.5 Area of Effect.",
+          "description": "Arrow Bomb gains +1.5 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Arrow Bomb",
@@ -807,7 +807,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Arrow Shield gains +3% Resistance.",
+          "description": "Arrow Shield gains +3% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Arrow Shield",
@@ -820,7 +820,7 @@
         },
         {
           "threshold": 5,
-          "description": "Arrow Shield gains +6% Resistance.",
+          "description": "Arrow Shield gains +6% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Arrow Shield",
@@ -833,7 +833,7 @@
         },
         {
           "threshold": 30,
-          "description": "Arrow Shield gains +8% Resistance.",
+          "description": "Arrow Shield gains +8% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Arrow Shield",
@@ -846,7 +846,7 @@
         },
         {
           "threshold": 150,
-          "description": "Arrow Shield gains +10% Resistance.",
+          "description": "Arrow Shield gains +10% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Arrow Shield",
@@ -892,7 +892,7 @@
         },
         {
           "threshold": 5,
-          "description": "Divine Intervention will cause Guardian Angels to fire 1.8x faster instead. </br> Triple Shots gains +2 arrows. </br> Main Attack Damage: -15%",
+          "description": "Divine Intervention will cause Guardian Angels to fire 1.8x faster instead, and cause explosive shots to deal +5% more damage.  Triple Shots gains +2 arrows.  Main Attack Damage: -15%",
           "abilities": [
             {
               "base_abil": "Arrow Shield",
@@ -956,7 +956,7 @@
         },
         {
           "threshold": 15,
-          "description": "Divine Intervention will cause Guardian Angels to fire 1.8x faster instead, and cause explosive shots to deal +10% more damage. </br> Triple Shots gains +2 arrows. </br> Main Attack Damage: -15%",
+          "description": "Divine Intervention will cause Guardian Angels to fire 1.8x faster instead, and cause explosive shots to deal +10% more damage.  Triple Shots gains +2 arrows.  Main Attack Damage: -15%",
           "abilities": [
             {
               "base_abil": "Arrow Shield",
@@ -1032,7 +1032,7 @@
         },
         {
           "threshold": 5,
-          "description": "Focus' cooldown is reduced by -0.2s. </br> Increase your maximum Focus by +1.",
+          "description": "Focus' cooldown is reduced by -0.2s.  Increase your maximum Focus by +1.",
           "abilities": [
             {
               "base_abil": "Focus",
@@ -1056,7 +1056,7 @@
         },
         {
           "threshold": 15,
-          "description": "Focus' cooldown is reduced by -0.3s. </br> Increase your maximum Focus by +1.",
+          "description": "Focus' cooldown is reduced by -0.3s.  Increase your maximum Focus by +1.",
           "abilities": [
             {
               "base_abil": "Focus",
@@ -1092,7 +1092,7 @@
         },
         {
           "threshold": 5,
-          "description": "Patient Hunter gains +10% damage per second. </br> Chilling Snare gains +3s Duration.",
+          "description": "Patient Hunter gains +10% damage per second.  Chilling Snare gains +3s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Basaltic Trap",
@@ -1114,7 +1114,7 @@
         },
         {
           "threshold": 15,
-          "description": "Patient Hunter gains +15% damage per second. </br> Chilling Snare gains +3s Duration.",
+          "description": "Patient Hunter gains +15% damage per second.  Chilling Snare gains +3s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Basaltic Trap",
@@ -1143,7 +1143,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Increase your Hound's attack speed by +25%. </br> Increase your Snake's weakness effect by +2%. </br> Increase your Crow's distraction duration by +0.1s.",
+          "description": "Increase your Hound's attack speed by +25%.  Increase your Snake's weakness effect by +2%.  Increase your Crow's distraction duration by +0.1s.",
           "abilities": [
             {
               "base_abil": "Arrow Storm",
@@ -1183,7 +1183,7 @@
         },
         {
           "threshold": 15,
-          "description": "Increase your Hound's attack speed by +25% and movement speed by +25%. </br> Increase your Snake's weakness effect by +3%. </br> Increase your Crow's distraction duration by +0.15s.",
+          "description": "Increase your Hound's attack speed by +25% and movement speed by +25%.  Increase your Snake's weakness effect by +3%.  Increase your Crow's distraction duration by +0.15s.",
           "abilities": [
             {
               "base_abil": "Arrow Storm",
@@ -1223,7 +1223,7 @@
         },
         {
           "threshold": 75,
-          "description": "Increase your Hound's attack speed by +25% and movement speed by +50%. </br> Increase your Snake's weakness effect by +4%. </br> Increase your Crow's distraction duration by +0.2s.",
+          "description": "Increase your Hound's attack speed by +25% and movement speed by +50%.  Increase your Snake's weakness effect by +4%.  Increase your Crow's distraction duration by +0.2s.",
           "abilities": [
             {
               "base_abil": "Arrow Storm",
@@ -1289,36 +1289,6 @@
       ],
       "aliases": [
         "ghostlyTriggerCD"
-      ]
-    },
-    {
-      "displayName": "Aspect of the Barley-Woven",
-      "id": 26,
-      "tier": "Legendary",
-      "tiers": [
-        {
-          "threshold": 1,
-          "description": "Increase Grappling Hook's range by +10%.",
-          "abilities": []
-        },
-        {
-          "threshold": 5,
-          "description": "Increase Grappling Hook's range by +18%.",
-          "abilities": []
-        },
-        {
-          "threshold": 30,
-          "description": "Increase Grappling Hook's range by +26%.",
-          "abilities": []
-        },
-        {
-          "threshold": 150,
-          "description": "Increase Grappling Hook's range by +30%.",
-          "abilities": []
-        }
-      ],
-      "aliases": [
-        "grappleHookRange"
       ]
     },
     {
@@ -1458,7 +1428,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Increase your maximum Flint Arrows by +1. </br> </br><span class='mc-white'>Total Damage</span>: -1% (Main Attack Damage, per arrow)   </br>&emsp;(<span class='nDam'>Damage</span>: -1%)",
+          "description": "Increase your maximum Flint Arrows by +1.  </br><span class='mc-white'>Total Damage</span>: -1% (Main Attack Damage, per arrow) </br>&emsp;(<span class='nDam'>Damage</span>: -1%)",
           "abilities": [
             {
               "base_abil": "Arsenal Synergy",
@@ -1482,7 +1452,7 @@
         },
         {
           "threshold": 15,
-          "description": "Increase your maximum Flint Arrows by +2. </br> </br><span class='mc-white'>Total Damage</span>: -2% (Main Attack Damage, per arrow)   </br>&emsp;(<span class='nDam'>Damage</span>: -2%)",
+          "description": "Increase your maximum Flint Arrows by +2.  </br><span class='mc-white'>Total Damage</span>: -2% (Main Attack Damage, per arrow) </br>&emsp;(<span class='nDam'>Damage</span>: -2%)",
           "abilities": [
             {
               "base_abil": "Arsenal Synergy",
@@ -1506,7 +1476,7 @@
         },
         {
           "threshold": 75,
-          "description": "Increase your maximum Flint Arrows by +3. </br> </br><span class='mc-white'>Total Damage</span>: -3% (Main Attack Damage, per arrow)   </br>&emsp;(<span class='nDam'>Damage</span>: -3%)",
+          "description": "Increase your maximum Flint Arrows by +3.  </br><span class='mc-white'>Total Damage</span>: -3% (Main Attack Damage, per arrow) </br>&emsp;(<span class='nDam'>Damage</span>: -3%)",
           "abilities": [
             {
               "base_abil": "Arsenal Synergy",
@@ -1531,6 +1501,36 @@
       ],
       "aliases": [
         "flintArrowsCount"
+      ]
+    },
+    {
+      "displayName": "Aspect of the Barley-Woven",
+      "id": 26,
+      "tier": "Legendary",
+      "tiers": [
+        {
+          "threshold": 1,
+          "description": "Increase Grappling Hook's range by +10%.",
+          "abilities": []
+        },
+        {
+          "threshold": 5,
+          "description": "Increase Grappling Hook's range by +18%.",
+          "abilities": []
+        },
+        {
+          "threshold": 30,
+          "description": "Increase Grappling Hook's range by +26%.",
+          "abilities": []
+        },
+        {
+          "threshold": 150,
+          "description": "Increase Grappling Hook's range by +30%.",
+          "abilities": []
+        }
+      ],
+      "aliases": [
+        "grappleHookRange"
       ]
     },
     {
@@ -1575,7 +1575,7 @@
         },
         {
           "threshold": 5,
-          "description": "Your Ultimate charges 20% faster. </br> Ascension lasts +20% longer. Extinction Event spawns +30% bombs. Twilight Zone's mark cap is +20% higher.",
+          "description": "Your Ultimate charges 20% faster.  Ascension lasts +20% longer. Extinction Event spawns +30% bombs. Twilight Zone's mark cap is +20% higher.",
           "abilities": [
             {
               "base_abil": "The Twilight Zone",
@@ -1595,7 +1595,7 @@
         },
         {
           "threshold": 15,
-          "description": "Your Ultimate charges 25% faster. </br> Ascension lasts +20% longer. Extinction Event spawns +30% bombs. Twilight Zone's mark cap is +20% higher.",
+          "description": "Your Ultimate charges 25% faster.  Ascension lasts +20% longer. Extinction Event spawns +30% bombs. Twilight Zone's mark cap is +20% higher.",
           "abilities": [
             {
               "base_abil": "The Twilight Zone",
@@ -1624,17 +1624,17 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Sacred Surge gains +0.1 holy power for every spell or ability triggered. </br> Luster Purge grants +1.25 holy power.",
+          "description": "Sacred Surge gains +0.1 holy power for every spell or ability triggered.  Luster Purge grants +1.25 holy power.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Sacred Surge gains +0.15 holy power for every spell or ability triggered. </br> Luster Purge grants +2.0 holy power.",
+          "description": "Sacred Surge gains +0.15 holy power for every spell or ability triggered.  Luster Purge grants +2.0 holy power.",
           "abilities": []
         },
         {
           "threshold": 75,
-          "description": "Sacred Surge gains +0.2 holy power for every spell or ability triggered. </br> Luster Purge grants +2.5 holy power.",
+          "description": "Sacred Surge gains +0.2 holy power for every spell or ability triggered.  Luster Purge grants +2.5 holy power.",
           "abilities": []
         }
       ],
@@ -1699,17 +1699,17 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Radiance gains +1s Duration.",
+          "description": "Radiance gains +1s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Radiance gains +1.65s Duration.",
+          "description": "Radiance gains +1.65s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 75,
-          "description": "Radiance gains +2s Duration.",
+          "description": "Radiance gains +2s </br>Duration.",
           "abilities": []
         }
       ],
@@ -1724,7 +1724,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Flyby Slam's landing, Flying Kick and Collide gain +0.65 Area of Effect.",
+          "description": "Flyby Slam's landing, Flying Kick and Collide gain +0.65 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Charge",
@@ -1737,7 +1737,7 @@
         },
         {
           "threshold": 5,
-          "description": "Flyby Slam's landing, Flying Kick and Collide gain +1.15 Area of Effect.",
+          "description": "Flyby Slam's landing, Flying Kick and Collide gain +1.15 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Charge",
@@ -1750,7 +1750,7 @@
         },
         {
           "threshold": 30,
-          "description": "Flyby Slam's landing, Flying Kick and Collide gain +1.65 Area of Effect.",
+          "description": "Flyby Slam's landing, Flying Kick and Collide gain +1.65 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Charge",
@@ -1763,7 +1763,7 @@
         },
         {
           "threshold": 150,
-          "description": "Flyby Slam's landing, Flying Kick and Collide gain +2 Area of Effect.",
+          "description": "Flyby Slam's landing, Flying Kick and Collide gain +2 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Charge",
@@ -1786,7 +1786,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Bash gains +0.5 Area of Effect.",
+          "description": "Bash gains +0.5 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Bash",
@@ -1822,7 +1822,7 @@
         },
         {
           "threshold": 5,
-          "description": "Bash gains +0.9 Area of Effect.",
+          "description": "Bash gains +0.9 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Bash",
@@ -1858,7 +1858,7 @@
         },
         {
           "threshold": 30,
-          "description": "Bash gains +1.3 Area of Effect.",
+          "description": "Bash gains +1.3 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Bash",
@@ -1894,7 +1894,7 @@
         },
         {
           "threshold": 150,
-          "description": "Bash gains +1.5 Area of Effect.",
+          "description": "Bash gains +1.5 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Bash",
@@ -1970,7 +1970,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "War Scream, Tempest, and Bloodlust gain +1.25 Area of Effect.",
+          "description": "War Scream, Tempest, and Bloodlust gain +1.25 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "War Scream",
@@ -1997,7 +1997,7 @@
         },
         {
           "threshold": 5,
-          "description": "War Scream, Tempest, and Bloodlust gain +2.25 Area of Effect.",
+          "description": "War Scream, Tempest, and Bloodlust gain +2.25 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "War Scream",
@@ -2024,7 +2024,7 @@
         },
         {
           "threshold": 30,
-          "description": "War Scream, Tempest, and Bloodlust gain +3.25 Area of Effect.",
+          "description": "War Scream, Tempest, and Bloodlust gain +3.25 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "War Scream",
@@ -2051,7 +2051,7 @@
         },
         {
           "threshold": 150,
-          "description": "War Scream, Tempest, and Bloodlust gain +4 Area of Effect.",
+          "description": "War Scream, Tempest, and Bloodlust gain +4 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "War Scream",
@@ -2088,7 +2088,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Your Main Attack and Bloodied Armory gains +0.65 Range.",
+          "description": "Your Main Attack and Bloodied Armory gains +0.65 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -2101,7 +2101,7 @@
         },
         {
           "threshold": 5,
-          "description": "Your Main Attack and Bloodied Armory gains +1.15 Range.",
+          "description": "Your Main Attack and Bloodied Armory gains +1.15 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -2114,7 +2114,7 @@
         },
         {
           "threshold": 30,
-          "description": "Your Main Attack and Bloodied Armory gains +1.65 Range.",
+          "description": "Your Main Attack and Bloodied Armory gains +1.65 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -2127,7 +2127,7 @@
         },
         {
           "threshold": 150,
-          "description": "Your Main Attack and Bloodied Armory gains +2 Range.",
+          "description": "Your Main Attack and Bloodied Armory gains +2 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -2180,22 +2180,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Cyclone gains +1 Area of Effect.",
+          "description": "Cyclone gains +1 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Cyclone gains +1.75 Area of Effect.",
+          "description": "Cyclone gains +1.75 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Cyclone gains +2.5 Area of Effect.",
+          "description": "Cyclone gains +2.5 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Cyclone gains +3 Area of Effect.",
+          "description": "Cyclone gains +3 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -2210,22 +2210,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Air Shout gains +0.65 Area of Effect.",
+          "description": "Air Shout gains +0.65 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Air Shout gains +1.15 Area of Effect.",
+          "description": "Air Shout gains +1.15 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Air Shout gains +1.65 Area of Effect.",
+          "description": "Air Shout gains +1.65 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Air Shout gains +2 Area of Effect.",
+          "description": "Air Shout gains +2 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -2240,7 +2240,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Uppercut gains +0.65 Range.",
+          "description": "Uppercut gains +0.65 </br>Range.",
           "abilities": [
             {
               "base_abil": "Uppercut",
@@ -2253,7 +2253,7 @@
         },
         {
           "threshold": 5,
-          "description": "Uppercut gains +1.15 Range.",
+          "description": "Uppercut gains +1.15 </br>Range.",
           "abilities": [
             {
               "base_abil": "Uppercut",
@@ -2266,7 +2266,7 @@
         },
         {
           "threshold": 30,
-          "description": "Uppercut gains +1.65 Range.",
+          "description": "Uppercut gains +1.65 </br>Range.",
           "abilities": [
             {
               "base_abil": "Uppercut",
@@ -2279,7 +2279,7 @@
         },
         {
           "threshold": 150,
-          "description": "Uppercut gains +2 Range.",
+          "description": "Uppercut gains +2 </br>Range.",
           "abilities": [
             {
               "base_abil": "Uppercut",
@@ -2315,7 +2315,7 @@
         },
         {
           "threshold": 5,
-          "description": "Mantle of the Bovemists gains +2 charges. </br> Sacred Surge spends -5 Holy Power to activate.",
+          "description": "Mantle of the Bovemists gains +2 charges.  Sacred Surge spends -5 Holy Power to activate.",
           "abilities": [
             {
               "base_abil": "Mantle of the Bovemists",
@@ -2328,7 +2328,7 @@
         },
         {
           "threshold": 15,
-          "description": "Mantle of the Bovemists gains +3 charges. </br> Sacred Surge spends -5 Holy Power to activate.",
+          "description": "Mantle of the Bovemists gains +3 charges.  Sacred Surge spends -5 Holy Power to activate.",
           "abilities": [
             {
               "base_abil": "Mantle of the Bovemists",
@@ -2426,7 +2426,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Pressure is stronger. </br> Bash gains +0.5x as many hits. </br> Uppercut deals +50% neutral and +8% Damage in all Elements. </br><span class='mc-white'>Total Damage</span>: +90%   </br>&emsp;(<span class='nDam'>Damage</span>: +50%)   </br>&emsp;(<span class='nDam'>Rainbow Damage</span>: +8%)",
+          "description": "Pressure is stronger.  Bash gains +0.5x as many hits.  Uppercut deals +50% neutral and +8% Damage in all Elements. </br><span class='mc-white'>Total Damage</span>: +90% </br>&emsp;(<span class='nDam'>Damage</span>: +50%) </br>&emsp;(<span class='nDam'>Rainbow Damage</span>: +8%)",
           "abilities": [
             {
               "base_abil": "War Scream",
@@ -2441,7 +2441,7 @@
         },
         {
           "threshold": 5,
-          "description": "Pressure is stronger. </br> Bash gains +0.5x as many hits. </br> Uppercut deals +50% neutral and +8% Damage in all Elements. </br><span class='mc-white'>Total Damage</span>: +90%   </br>&emsp;(<span class='nDam'>Damage</span>: +50%)   </br>&emsp;(<span class='nDam'>Rainbow Damage</span>: +8%) </br> War Scream grants a higher damage boost. Effect: +3% Damage Bonus to Players",
+          "description": "Pressure is stronger.  Bash gains +0.5x as many hits.  Uppercut deals +50% neutral and +8% Damage in all Elements. </br><span class='mc-white'>Total Damage</span>: +90% </br>&emsp;(<span class='nDam'>Damage</span>: +50%) </br>&emsp;(<span class='nDam'>Rainbow Damage</span>: +8%)  War Scream grants a higher damage boost. </br>Effect: +3% Damage Bonus to Players",
           "abilities": [
             {
               "base_abil": "War Scream",
@@ -2457,7 +2457,7 @@
         },
         {
           "threshold": 15,
-          "description": "Pressure is stronger. </br> Bash gains +0.5x as many hits and more damage. </br><span class='mc-white'>Total Damage</span>: +5%   </br>&emsp;(<span class='tDam'>Thunder</span>: +5%) </br> Uppercut deals +70% neutral and +10% Damage in all Elements. </br><span class='mc-white'>Total Damage</span>: +120%   </br>&emsp;(<span class='nDam'>Damage</span>: +70%)   </br>&emsp;(<span class='nDam'>Rainbow Damage</span>: +10%) </br> War Scream grants a higher damage boost. Effect: +4% Damage Bonus to Players",
+          "description": "Pressure is stronger.  Bash gains +0.5x as many hits and more damage. </br><span class='mc-white'>Total Damage</span>: +5% </br>&emsp;(<span class='tDam'>Thunder</span>: +5%)  Uppercut deals +70% neutral and +10% Damage in all Elements. </br><span class='mc-white'>Total Damage</span>: +120% </br>&emsp;(<span class='nDam'>Damage</span>: +70%) </br>&emsp;(<span class='nDam'>Rainbow Damage</span>: +10%)  War Scream grants a higher damage boost. </br>Effect: +4% Damage Bonus to Players",
           "abilities": [
             {
               "base_abil": "War Scream",
@@ -2694,93 +2694,27 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Emboldening Cry grants +2% Resistance to Allies.",
+          "description": "Emboldening Cry grants +2% ❁ Resistance to Allies.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Emboldening Cry grants +3% Resistance to Allies.",
+          "description": "Emboldening Cry grants +3% ❁ Resistance to Allies.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Emboldening Cry grants +4% Resistance to Allies.",
+          "description": "Emboldening Cry grants +4% ❁ Resistance to Allies.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Emboldening Cry grants +5% Resistance to Allies.",
+          "description": "Emboldening Cry grants +5% ❁ Resistance to Allies.",
           "abilities": []
         }
       ],
       "aliases": [
         "emboldeningCryResistance"
-      ]
-    },
-    {
-      "displayName": "Aspect of the Golden Dawn",
-      "id": 26,
-      "tier": "Legendary",
-      "tiers": [
-        {
-          "threshold": 1,
-          "description": "Luster Purge grants +4% Main Attack Damage and +4% Main Attack Range.",
-          "abilities": [
-            {
-              "base_abil": "Luster Purge",
-              "properties": {
-                "meleeBonus": 4,
-                "rangeBonus": 4
-              },
-              "effects": []
-            }
-          ]
-        },
-        {
-          "threshold": 5,
-          "description": "Luster Purge grants +6% Main Attack Damage and +6% Main Attack Range.",
-          "abilities": [
-            {
-              "base_abil": "Luster Purge",
-              "properties": {
-                "meleeBonus": 6,
-                "rangeBonus": 6
-              },
-              "effects": []
-            }
-          ]
-        },
-        {
-          "threshold": 30,
-          "description": "Luster Purge grants +8% Main Attack Damage and +8% Main Attack Range.",
-          "abilities": [
-            {
-              "base_abil": "Luster Purge",
-              "properties": {
-                "meleeBonus": 8,
-                "rangeBonus": 8
-              },
-              "effects": []
-            }
-          ]
-        },
-        {
-          "threshold": 150,
-          "description": "Luster Purge grants +10% Main Attack Damage and +10% Main Attack Range.",
-          "abilities": [
-            {
-              "base_abil": "Luster Purge",
-              "properties": {
-                "meleeBonus": 10,
-                "rangeBonus": 10
-              },
-              "effects": []
-            }
-          ]
-        }
-      ],
-      "aliases": [
-        "lusterPurgeStrength"
       ]
     },
     {
@@ -2872,6 +2806,33 @@
       ]
     },
     {
+      "displayName": "Aspect of the Humming Choir",
+      "id": 24,
+      "tier": "Legendary",
+      "tiers": [
+        {
+          "threshold": 1,
+          "description": "Devout Union gains +1.35 </br>Area of Effect.",
+          "abilities": []
+        },
+        {
+          "threshold": 5,
+          "description": "Devout Union gains +2.35 </br>Area of Effect.",
+          "abilities": []
+        },
+        {
+          "threshold": 30,
+          "description": "Devout Union gains +3.35 </br>Area of Effect.",
+          "abilities": []
+        },
+        {
+          "threshold": 150,
+          "description": "Devout Union gains +4 </br>Area of Effect.",
+          "abilities": []
+        }
+      ]
+    },
+    {
       "displayName": "Aspect of the Crimson Scrivener",
       "id": 25,
       "tier": "Legendary",
@@ -2902,6 +2863,72 @@
       ]
     },
     {
+      "displayName": "Aspect of the Golden Dawn",
+      "id": 26,
+      "tier": "Legendary",
+      "tiers": [
+        {
+          "threshold": 1,
+          "description": "Luster Purge grants +4% Main Attack Damage and +4% </br>Main Attack Range.",
+          "abilities": [
+            {
+              "base_abil": "Luster Purge",
+              "properties": {
+                "meleeBonus": 4,
+                "rangeBonus": 4
+              },
+              "effects": []
+            }
+          ]
+        },
+        {
+          "threshold": 5,
+          "description": "Luster Purge grants +6% Main Attack Damage and +6% </br>Main Attack Range.",
+          "abilities": [
+            {
+              "base_abil": "Luster Purge",
+              "properties": {
+                "meleeBonus": 6,
+                "rangeBonus": 6
+              },
+              "effects": []
+            }
+          ]
+        },
+        {
+          "threshold": 30,
+          "description": "Luster Purge grants +8% Main Attack Damage and +8% </br>Main Attack Range.",
+          "abilities": [
+            {
+              "base_abil": "Luster Purge",
+              "properties": {
+                "meleeBonus": 8,
+                "rangeBonus": 8
+              },
+              "effects": []
+            }
+          ]
+        },
+        {
+          "threshold": 150,
+          "description": "Luster Purge grants +10% Main Attack Damage and +10% </br>Main Attack Range.",
+          "abilities": [
+            {
+              "base_abil": "Luster Purge",
+              "properties": {
+                "meleeBonus": 10,
+                "rangeBonus": 10
+              },
+              "effects": []
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        "lusterPurgeStrength"
+      ]
+    },
+    {
       "displayName": "Warrior's Embodiment of Everlasting Perseverance",
       "id": 27,
       "tier": "Mythic",
@@ -2913,7 +2940,7 @@
         },
         {
           "threshold": 5,
-          "description": "Your Ultimate charges 20% faster. </br> Beyond Salvation spawns +3 spikes. Zenith Stance lasts +3s longer. Judgement lasts +20% longer.",
+          "description": "Your Ultimate charges 20% faster.  Beyond Salvation spawns +3 spikes. Zenith Stance lasts +3s longer. Judgement lasts +20% longer.",
           "abilities": [
             {
               "base_abil": "Beyond Salvation",
@@ -2935,7 +2962,7 @@
         },
         {
           "threshold": 15,
-          "description": "Your Ultimate charges 25% faster. </br> Beyond Salvation spawns +3 spikes. Zenith Stance lasts +3s longer. Judgement lasts +20% longer.",
+          "description": "Your Ultimate charges 25% faster.  Beyond Salvation spawns +3 spikes. Zenith Stance lasts +3s longer. Judgement lasts +20% longer.",
           "abilities": [
             {
               "base_abil": "Beyond Salvation",
@@ -2954,33 +2981,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "displayName": "Aspect of the Humming Choir",
-      "id": 24,
-      "tier": "Legendary",
-      "tiers": [
-        {
-          "threshold": 1,
-          "description": "Devout Union gains +1.35 Area of Effect.",
-          "abilities": []
-        },
-        {
-          "threshold": 5,
-          "description": "Devout Union gains +2.35 Area of Effect.",
-          "abilities": []
-        },
-        {
-          "threshold": 30,
-          "description": "Devout Union gains +3.35 Area of Effect.",
-          "abilities": []
-        },
-        {
-          "threshold": 150,
-          "description": "Devout Union gains +4 Area of Effect.",
-          "abilities": []
         }
       ]
     }
@@ -2993,17 +2993,17 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Burning Sigil and Freezing Sigil gain +1.25 Area of Effect.",
+          "description": "Burning Sigil and Freezing Sigil gain +1.25 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Burning Sigil and Freezing Sigil gain +2.25 Area of Effect.",
+          "description": "Burning Sigil and Freezing Sigil gain +2.25 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 75,
-          "description": "Burning Sigil and Freezing Sigil gain +3 Area of Effect.",
+          "description": "Burning Sigil and Freezing Sigil gain +3 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -3018,17 +3018,17 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Fortitude gains +1.25s Duration.",
+          "description": "Fortitude gains +1.25s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Fortitude gains +2.25s Duration.",
+          "description": "Fortitude gains +2.25s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 75,
-          "description": "Fortitude gains +3s Duration.",
+          "description": "Fortitude gains +3s </br>Duration.",
           "abilities": []
         }
       ],
@@ -3062,65 +3062,6 @@
       ]
     },
     {
-      "displayName": "Aspect of the Inescapable Void",
-      "id": 24,
-      "tier": "Fabled",
-      "tiers": [
-        {
-          "threshold": 1,
-          "description": "Dimensional Tear and Rift Rupture gain +2 Area of Effect.",
-          "abilities": []
-        },
-        {
-          "threshold": 15,
-          "description": "Dimensional Tear and Rift Rupture gain +2 Area of Effect. </br> Dimensional Tear gains +5% Resistance.",
-          "abilities": [
-            {
-              "base_abil": "Distortion",
-              "effects": [
-                {
-                  "type": "raw_stat",
-                  "toggle": "Activate Dimensional Tear",
-                  "bonuses": [
-                    {
-                      "type": "stat",
-                      "name": "defMult.Potion",
-                      "value": 5
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "threshold": 75,
-          "description": "Dimensional Tear and Rift Rupture gain +3 Area of Effect. </br> Dimensional Tear gains +5% Resistance.",
-          "abilities": [
-            {
-              "base_abil": "Distortion",
-              "effects": [
-                {
-                  "type": "raw_stat",
-                  "toggle": "Activate Dimensional Tear",
-                  "bonuses": [
-                    {
-                      "type": "stat",
-                      "name": "defMult.Potion",
-                      "value": 5
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "aliases": [
-        "dimensionalTearAOE"
-      ]
-    },
-    {
       "displayName": "Aspect of Burning Providence",
       "id": 4,
       "tier": "Fabled",
@@ -3146,38 +3087,13 @@
       ]
     },
     {
-      "displayName": "Aspect of the Forbidden Ritual",
-      "id": 22,
-      "tier": "Fabled",
-      "tiers": [
-        {
-          "threshold": 1,
-          "description": "Reduce Judrajim's cooldown by 0.75s.",
-          "abilities": []
-        },
-        {
-          "threshold": 15,
-          "description": "Reduce Judrajim's cooldown by 1.25s.",
-          "abilities": []
-        },
-        {
-          "threshold": 75,
-          "description": "Reduce Judrajim's cooldown by 1.5s.",
-          "abilities": []
-        }
-      ],
-      "aliases": [
-        "judrajimCD"
-      ]
-    },
-    {
       "displayName": "Aspect of the Dimension's Door",
       "id": 6,
       "tier": "Legendary",
       "tiers": [
         {
           "threshold": 1,
-          "description": "Teleport gains +2 Range. </br> Displacement gains +5 Range.",
+          "description": "Teleport gains +2 </br>Range.  Displacement gains +5 </br>Range.",
           "abilities": [
             {
               "base_abil": "Teleport",
@@ -3190,7 +3106,7 @@
         },
         {
           "threshold": 5,
-          "description": "Teleport gains +3.5 Range. </br> Displacement gains +8.5 Range.",
+          "description": "Teleport gains +3.5 </br>Range.  Displacement gains +8.5 </br>Range.",
           "abilities": [
             {
               "base_abil": "Teleport",
@@ -3203,7 +3119,7 @@
         },
         {
           "threshold": 30,
-          "description": "Teleport gains +5 Range. </br> Displacement gains +12 Range.",
+          "description": "Teleport gains +5 </br>Range.  Displacement gains +12 </br>Range.",
           "abilities": [
             {
               "base_abil": "Teleport",
@@ -3216,7 +3132,7 @@
         },
         {
           "threshold": 150,
-          "description": "Teleport gains +6 Range. </br> Displacement gains +15 Range.",
+          "description": "Teleport gains +6 </br>Range.  Displacement gains +15 </br>Range.",
           "abilities": [
             {
               "base_abil": "Teleport",
@@ -3239,7 +3155,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Ice Snake and Frozen Tornado gains +0.65 Area of Effect.",
+          "description": "Ice Snake and Frozen Tornado gains +0.65 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Ice Snake",
@@ -3252,7 +3168,7 @@
         },
         {
           "threshold": 5,
-          "description": "Ice Snake and Frozen Tornado gains +1.15 Area of Effect.",
+          "description": "Ice Snake and Frozen Tornado gains +1.15 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Ice Snake",
@@ -3265,7 +3181,7 @@
         },
         {
           "threshold": 30,
-          "description": "Ice Snake and Frozen Tornado gains +1.65 Area of Effect.",
+          "description": "Ice Snake and Frozen Tornado gains +1.65 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Ice Snake",
@@ -3278,7 +3194,7 @@
         },
         {
           "threshold": 150,
-          "description": "Ice Snake and Frozen Tornado gains +2 Area of Effect.",
+          "description": "Ice Snake and Frozen Tornado gains +2 </br>Area of Effect.",
           "abilities": [
             {
               "base_abil": "Ice Snake",
@@ -3301,7 +3217,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Psychokinesis gains +4 Range.",
+          "description": "Psychokinesis gains +4 </br>Range.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3317,7 +3233,7 @@
         },
         {
           "threshold": 5,
-          "description": "Psychokinesis gains +7 Range.",
+          "description": "Psychokinesis gains +7 </br>Range.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3333,7 +3249,7 @@
         },
         {
           "threshold": 30,
-          "description": "Psychokinesis gains +10 Range.",
+          "description": "Psychokinesis gains +10 </br>Range.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3349,7 +3265,7 @@
         },
         {
           "threshold": 150,
-          "description": "Psychokinesis gains +12 Range.",
+          "description": "Psychokinesis gains +12 </br>Range.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3375,7 +3291,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Meteor and Astral Fragmentation gain +0.65 Area of Effect. </br> Ophanim gains +2.5 Range. Ophanim's orbs travel 11% faster.",
+          "description": "Meteor and Astral Fragmentation gain +0.65 </br>Area of Effect.  Ophanim gains +2.5 </br>Range. Ophanim's orbs travel 11% faster.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3398,7 +3314,7 @@
         },
         {
           "threshold": 5,
-          "description": "Meteor and Astral Fragmentation gain +1.15 Area of Effect. </br> Ophanim gains +4.5 Range. Ophanim's orbs travel 21% faster.",
+          "description": "Meteor and Astral Fragmentation gain +1.15 </br>Area of Effect.  Ophanim gains +4.5 </br>Range. Ophanim's orbs travel 21% faster.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3421,7 +3337,7 @@
         },
         {
           "threshold": 30,
-          "description": "Meteor and Astral Fragmentation gain +1.65 Area of Effect. </br> Ophanim gains +6.5 Range. Ophanim's orbs travel 29% faster.",
+          "description": "Meteor and Astral Fragmentation gain +1.65 </br>Area of Effect.  Ophanim gains +6.5 </br>Range. Ophanim's orbs travel 29% faster.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3444,7 +3360,7 @@
         },
         {
           "threshold": 150,
-          "description": "Meteor and Astral Fragmentation gain +2 Area of Effect. </br> Ophanim gains +8 Range. Ophanim's orbs travel 37% faster.",
+          "description": "Meteor and Astral Fragmentation gain +2 </br>Area of Effect.  Ophanim gains +8 </br>Range. Ophanim's orbs travel 37% faster.",
           "abilities": [
             {
               "base_abil": "Meteor",
@@ -3540,7 +3456,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Your Main Attack gains +1.5 Range.",
+          "description": "Your Main Attack gains +1.5 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -3553,7 +3469,7 @@
         },
         {
           "threshold": 5,
-          "description": "Your Main Attack gains +2.75 Range.",
+          "description": "Your Main Attack gains +2.75 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -3566,7 +3482,7 @@
         },
         {
           "threshold": 30,
-          "description": "Your Main Attack gains +4 Range.",
+          "description": "Your Main Attack gains +4 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -3579,7 +3495,7 @@
         },
         {
           "threshold": 150,
-          "description": "Your Main Attack gains +5 Range.",
+          "description": "Your Main Attack gains +5 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -3602,7 +3518,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Heal gains +1 Range.",
+          "description": "Heal gains +1 </br>Range.",
           "abilities": [
             {
               "base_abil": "Heal",
@@ -3615,7 +3531,7 @@
         },
         {
           "threshold": 5,
-          "description": "Heal gains +1.75 Range.",
+          "description": "Heal gains +1.75 </br>Range.",
           "abilities": [
             {
               "base_abil": "Heal",
@@ -3628,7 +3544,7 @@
         },
         {
           "threshold": 30,
-          "description": "Heal gains +2.5 Range.",
+          "description": "Heal gains +2.5 </br>Range.",
           "abilities": [
             {
               "base_abil": "Heal",
@@ -3641,7 +3557,7 @@
         },
         {
           "threshold": 150,
-          "description": "Heal gains +3 Range.",
+          "description": "Heal gains +3 </br>Range.",
           "abilities": [
             {
               "base_abil": "Heal",
@@ -3655,38 +3571,6 @@
       ],
       "aliases": [
         "healRange"
-      ]
-    },
-    {
-      "displayName": "Riftwalker's Embodiment of Reality Alteration",
-      "id": 28,
-      "tier": "Mythic",
-      "tiers": [
-        {
-          "threshold": 1,
-          "description": "Distortion decays -10% slower.",
-          "abilities": []
-        },
-        {
-          "threshold": 5,
-          "description": "Distortion decays -10% slower. </br> Riftbound gains +2s Duration.",
-          "abilities": [
-            {
-              "base_abil": "Distortion",
-              "effects": []
-            }
-          ]
-        },
-        {
-          "threshold": 15,
-          "description": "Distortion decays -15% slower. </br> Riftbound gains +2s Duration.",
-          "abilities": [
-            {
-              "base_abil": "Distortion",
-              "effects": []
-            }
-          ]
-        }
       ]
     },
     {
@@ -3709,7 +3593,7 @@
         },
         {
           "threshold": 5,
-          "description": "Lightweaver gains +2 orbs. </br> Ophanim gains +1 orb.",
+          "description": "Lightweaver gains +2 orbs.  Ophanim gains +1 orb.",
           "abilities": [
             {
               "base_abil": "Ophanim",
@@ -3729,7 +3613,7 @@
         },
         {
           "threshold": 15,
-          "description": "Lightweaver gains +3 orbs. </br> Ophanim gains +1 orb.",
+          "description": "Lightweaver gains +3 orbs.  Ophanim gains +1 orb.",
           "abilities": [
             {
               "base_abil": "Ophanim",
@@ -3766,7 +3650,7 @@
         },
         {
           "threshold": 15,
-          "description": "Chaos Explosion requires -20 mana to activate. Chaos Explosion casts 14% faster. </br> Increase your maximum Mana Bank by +25.",
+          "description": "Chaos Explosion requires -20 mana to activate. Chaos Explosion casts 14% faster.  Increase your maximum Mana Bank by +25.",
           "abilities": []
         }
       ]
@@ -3803,22 +3687,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Time Dilation gains +0.35 Area of Effect.",
+          "description": "Time Dilation gains +1 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Time Dilation gains +0.6 Area of Effect.",
+          "description": "Time Dilation gains +1.75 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Time Dilation gains +0.85 Area of Effect.",
+          "description": "Time Dilation gains +2.5 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Time Dilation gains +1 Area of Effect.",
+          "description": "Time Dilation gains +3 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -3833,57 +3717,27 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Pyrokinesis gains +0.65 Area of Effect.",
+          "description": "Pyrokinesis gains +0.65 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Pyrokinesis gains +1.15 Area of Effect.",
+          "description": "Pyrokinesis gains +1.15 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Pyrokinesis gains +1.65 Area of Effect.",
+          "description": "Pyrokinesis gains +1.65 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Pyrokinesis gains +2 Area of Effect.",
+          "description": "Pyrokinesis gains +2 </br>Area of Effect.",
           "abilities": []
         }
       ],
       "aliases": [
         "pyrokinesisAOE"
-      ]
-    },
-    {
-      "displayName": "Aspect of Indoctrination",
-      "id": 25,
-      "tier": "Legendary",
-      "tiers": [
-        {
-          "threshold": 1,
-          "description": "Gospel of Light gains +2.65 Area of Effect.",
-          "abilities": []
-        },
-        {
-          "threshold": 5,
-          "description": "Gospel of Light gains +4.65 Area of Effect.",
-          "abilities": []
-        },
-        {
-          "threshold": 30,
-          "description": "Gospel of Light gains +6.65 Area of Effect.",
-          "abilities": []
-        },
-        {
-          "threshold": 150,
-          "description": "Gospel of Light gains +8 Area of Effect.",
-          "abilities": []
-        }
-      ],
-      "aliases": [
-        "gospelOfLightAOE"
       ]
     },
     {
@@ -3898,17 +3752,67 @@
         },
         {
           "threshold": 15,
-          "description": "Increase your maximum Arcane Overflow  Mana by +25%.",
+          "description": "Increase your maximum Arcane Overflow Mana by +25%.",
           "abilities": []
         },
         {
           "threshold": 75,
-          "description": "Increase your maximum Arcane Overflow  Mana by +33%.",
+          "description": "Increase your maximum Arcane Overflow Mana by +33%.",
           "abilities": []
         }
       ],
       "aliases": [
         "manaBankCap"
+      ]
+    },
+    {
+      "displayName": "Aspect of Futures Rewritten",
+      "id": 21,
+      "tier": "Fabled",
+      "tiers": [
+        {
+          "threshold": 1,
+          "description": "Paradox delays +3% more damage.",
+          "abilities": []
+        },
+        {
+          "threshold": 15,
+          "description": "Paradox delays +3% more damage and refunds +5% more mana.",
+          "abilities": []
+        },
+        {
+          "threshold": 75,
+          "description": "Paradox delays +5% more damage and refunds +5% more mana.",
+          "abilities": []
+        }
+      ],
+      "aliases": [
+        "rewindStrength"
+      ]
+    },
+    {
+      "displayName": "Aspect of the Forbidden Ritual",
+      "id": 22,
+      "tier": "Fabled",
+      "tiers": [
+        {
+          "threshold": 1,
+          "description": "Reduce Judrajim's cooldown by 0.75s.",
+          "abilities": []
+        },
+        {
+          "threshold": 15,
+          "description": "Reduce Judrajim's cooldown by 1.25s.",
+          "abilities": []
+        },
+        {
+          "threshold": 75,
+          "description": "Reduce Judrajim's cooldown by 1.5s.",
+          "abilities": []
+        }
+      ],
+      "aliases": [
+        "judrajimCD"
       ]
     },
     {
@@ -3940,7 +3844,7 @@
         },
         {
           "threshold": 15,
-          "description": "Increase your Riftspawn's attack speed by +25%. </br> Riftspawn gains +3 Vision.",
+          "description": "Increase your Riftspawn's attack speed by +25%.  Riftspawn gains +3 </br>Vision.",
           "abilities": [
             {
               "base_abil": "Portal to the Beyond",
@@ -3962,7 +3866,7 @@
         },
         {
           "threshold": 75,
-          "description": "Increase your Riftspawn's attack speed by +40%. </br> Riftspawn gains +3 Vision.",
+          "description": "Increase your Riftspawn's attack speed by +40%.  Riftspawn gains +3 </br>Vision.",
           "abilities": [
             {
               "base_abil": "Portal to the Beyond",
@@ -3988,28 +3892,92 @@
       ]
     },
     {
-      "displayName": "Aspect of Futures Rewritten",
-      "id": 21,
+      "displayName": "Aspect of the Inescapable Void",
+      "id": 24,
       "tier": "Fabled",
       "tiers": [
         {
           "threshold": 1,
-          "description": "Paradox delays +3% more damage.",
+          "description": "Dimensional Tear and Rift Rupture gain +2 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Paradox delays +3% more damage and refunds +5% more mana.",
-          "abilities": []
+          "description": "Dimensional Tear and Rift Rupture gain +2 </br>Area of Effect.  Dimensional Tear gains +5% ❁ Resistance.",
+          "abilities": [
+            {
+              "base_abil": "Distortion",
+              "effects": [
+                {
+                  "type": "raw_stat",
+                  "toggle": "Activate Dimensional Tear",
+                  "bonuses": [
+                    {
+                      "type": "stat",
+                      "name": "defMult.Potion",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "threshold": 75,
-          "description": "Paradox delays +5% more damage and refunds +5% more mana.",
+          "description": "Dimensional Tear and Rift Rupture gain +3 </br>Area of Effect.  Dimensional Tear gains +5% ❁ Resistance.",
+          "abilities": [
+            {
+              "base_abil": "Distortion",
+              "effects": [
+                {
+                  "type": "raw_stat",
+                  "toggle": "Activate Dimensional Tear",
+                  "bonuses": [
+                    {
+                      "type": "stat",
+                      "name": "defMult.Potion",
+                      "value": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        "dimensionalTearAOE"
+      ]
+    },
+    {
+      "displayName": "Aspect of Indoctrination",
+      "id": 25,
+      "tier": "Legendary",
+      "tiers": [
+        {
+          "threshold": 1,
+          "description": "Gospel of Light gains +2.65 </br>Area of Effect.",
+          "abilities": []
+        },
+        {
+          "threshold": 5,
+          "description": "Gospel of Light gains +4.65 </br>Area of Effect.",
+          "abilities": []
+        },
+        {
+          "threshold": 30,
+          "description": "Gospel of Light gains +6.65 </br>Area of Effect.",
+          "abilities": []
+        },
+        {
+          "threshold": 150,
+          "description": "Gospel of Light gains +8 </br>Area of Effect.",
           "abilities": []
         }
       ],
       "aliases": [
-        "rewindStrength"
+        "gospelOfLightAOE"
       ]
     },
     {
@@ -4138,7 +4106,7 @@
         },
         {
           "threshold": 5,
-          "description": "Your Ultimate charges 20% faster. </br> Dawn spawns +30% more wisps. Gravitational Collapse lasts +2.5s longer. Tangled Origin attacks +15% faster.",
+          "description": "Your Ultimate charges 20% faster.  Dawn spawns +30% more wisps. Gravitational Collapse lasts +2.5s longer. Tangled Origin attacks +15% faster.",
           "abilities": [
             {
               "base_abil": "Tangled Origin",
@@ -4170,7 +4138,7 @@
         },
         {
           "threshold": 15,
-          "description": "Your Ultimate charges 25% faster. </br> Dawn spawns +30% more wisps. Gravitational Collapse lasts +2.5s longer. Tangled Origin attacks +15% faster.",
+          "description": "Your Ultimate charges 25% faster.  Dawn spawns +30% more wisps. Gravitational Collapse lasts +2.5s longer. Tangled Origin attacks +15% faster.",
           "abilities": [
             {
               "base_abil": "Tangled Origin",
@@ -4196,6 +4164,38 @@
               "properties": {
                 "wisp_count": 150
               },
+              "effects": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Riftwalker's Embodiment of Reality Alteration",
+      "id": 28,
+      "tier": "Mythic",
+      "tiers": [
+        {
+          "threshold": 1,
+          "description": "Distortion decays -10% slower.",
+          "abilities": []
+        },
+        {
+          "threshold": 5,
+          "description": "Distortion decays -10% slower.  Riftbound gains +2s </br>Duration.",
+          "abilities": [
+            {
+              "base_abil": "Distortion",
+              "effects": []
+            }
+          ]
+        },
+        {
+          "threshold": 15,
+          "description": "Distortion decays -15% slower.  Riftbound gains +2s </br>Duration.",
+          "abilities": [
+            {
+              "base_abil": "Distortion",
               "effects": []
             }
           ]
@@ -4236,7 +4236,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Shurikens and Dextrous Hands prepare +1 shurikens. </br> Increase the amount of Shurikens you can hold by. +3 </br> </br><span class='mc-white'>Total Damage</span>: -15% (of your DPS, per shuriken)   </br>&emsp;(<span class='nDam'>Damage</span>: -10%)   </br>&emsp;(<span class='fDam'>Fire</span>: -5%)",
+          "description": "Shurikens and Dextrous Hands prepare +1 shurikens.  Increase the amount of Shurikens you can hold by. +3  </br><span class='mc-white'>Total Damage</span>: -15% (of your DPS, per shuriken) </br>&emsp;(<span class='nDam'>Damage</span>: -10%) </br>&emsp;(<span class='fDam'>Fire</span>: -5%)",
           "abilities": [
             {
               "base_abil": "Dash",
@@ -4268,7 +4268,7 @@
         },
         {
           "threshold": 15,
-          "description": "Shurikens and Dextrous Hands prepare +2 shurikens. </br> Increase the amount of Shurikens you can hold by +6. </br> </br><span class='mc-white'>Total Damage</span>: -28% (of your DPS, per shuriken)   </br>&emsp;(<span class='nDam'>Damage</span>: -19%)   </br>&emsp;(<span class='fDam'>Fire</span>: -9%)",
+          "description": "Shurikens and Dextrous Hands prepare +2 shurikens.  Increase the amount of Shurikens you can hold by +6.  </br><span class='mc-white'>Total Damage</span>: -28% (of your DPS, per shuriken) </br>&emsp;(<span class='nDam'>Damage</span>: -19%) </br>&emsp;(<span class='fDam'>Fire</span>: -9%)",
           "abilities": [
             {
               "base_abil": "Dash",
@@ -4300,7 +4300,7 @@
         },
         {
           "threshold": 75,
-          "description": "Shurikens and Dextrous Hands prepare +3 shurikens. </br> Increase the amount of Shurikens you can hold by +9. </br> </br><span class='mc-white'>Total Damage</span>: -36% (of your DPS, per shuriken)   </br>&emsp;(<span class='nDam'>Damage</span>: -24%)   </br>&emsp;(<span class='fDam'>Fire</span>: -12%)",
+          "description": "Shurikens and Dextrous Hands prepare +3 shurikens.  Increase the amount of Shurikens you can hold by +9.  </br><span class='mc-white'>Total Damage</span>: -36% (of your DPS, per shuriken) </br>&emsp;(<span class='nDam'>Damage</span>: -24%) </br>&emsp;(<span class='fDam'>Fire</span>: -12%)",
           "abilities": [
             {
               "base_abil": "Dash",
@@ -4458,7 +4458,7 @@
           "description": "Decrease your maximum Knives by -1. Increase the damage of each Knife by +4.5%.",
           "abilities": [
             {
-              "base_abil": "Nightcloak Knife",
+              "base_abil": "Nightcloak Knives",
               "effects": [
                 {
                   "type": "stat_scaling",
@@ -4484,7 +4484,7 @@
           "description": "Decrease your maximum Knives by -2. Increase the damage of each Knife by +12%.",
           "abilities": [
             {
-              "base_abil": "Nightcloak Knife",
+              "base_abil": "Nightcloak Knives",
               "effects": [
                 {
                   "type": "stat_scaling",
@@ -4510,7 +4510,7 @@
           "description": "Decrease your maximum Knives by -2. Increase the damage of each Knife by +14%.",
           "abilities": [
             {
-              "base_abil": "Nightcloak Knife",
+              "base_abil": "Nightcloak Knives",
               "effects": [
                 {
                   "type": "stat_scaling",
@@ -4543,17 +4543,17 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Jasmine Bloom gains +0.4 Area of Effect per bloom.",
+          "description": "Jasmine Bloom gains +0.4 </br>Area of Effect per bloom.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Jasmine Bloom gains +0.6 Area of Effect per bloom.",
+          "description": "Jasmine Bloom gains +0.6 </br>Area of Effect per bloom.",
           "abilities": []
         },
         {
           "threshold": 75,
-          "description": "Jasmine Bloom gains +0.8 Area of Effect per bloom.",
+          "description": "Jasmine Bloom gains +0.8 </br>Area of Effect per bloom.",
           "abilities": []
         }
       ],
@@ -4593,7 +4593,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Your Main Attack gains +0.65 Range.",
+          "description": "Your Main Attack gains +0.65 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -4606,7 +4606,7 @@
         },
         {
           "threshold": 5,
-          "description": "Your Main Attack gains +1.15 Range.",
+          "description": "Your Main Attack gains +1.15 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -4619,7 +4619,7 @@
         },
         {
           "threshold": 30,
-          "description": "Your Main Attack gains +1.65 Range.",
+          "description": "Your Main Attack gains +1.65 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -4632,7 +4632,7 @@
         },
         {
           "threshold": 150,
-          "description": "Your Main Attack gains +2 Range.",
+          "description": "Your Main Attack gains +2 </br>Range.",
           "abilities": [
             {
               "base_abil": 999,
@@ -4893,7 +4893,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Dissolution gains +0.15s Duration.",
+          "description": "Dissolution gains +0.15s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Dash",
@@ -4909,7 +4909,7 @@
         },
         {
           "threshold": 5,
-          "description": "Dissolution gains +0.3s Duration.",
+          "description": "Dissolution gains +0.3s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Dash",
@@ -4925,7 +4925,7 @@
         },
         {
           "threshold": 30,
-          "description": "Dissolution gains +0.4s Duration.",
+          "description": "Dissolution gains +0.4s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Dash",
@@ -4941,7 +4941,7 @@
         },
         {
           "threshold": 150,
-          "description": "Dissolution gains +0.5s Duration.",
+          "description": "Dissolution gains +0.5s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Dash",
@@ -4967,22 +4967,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Spin Attack and Lacerate gain +0.5 Area of Effect.",
+          "description": "Spin Attack and Lacerate gain +0.5 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Spin Attack and Lacerate gain +0.85 Area of Effect.",
+          "description": "Spin Attack and Lacerate gain +0.85 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Spin Attack and Lacerate gain +1.2 Area of Effect.",
+          "description": "Spin Attack and Lacerate gain +1.2 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Spin Attack and Lacerate gain +1.5 Area of Effect.",
+          "description": "Spin Attack and Lacerate gain +1.5 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -4998,22 +4998,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Smoke Bomb gains +0.65 Area of Effect.",
+          "description": "Smoke Bomb gains +0.65 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Smoke Bomb gains +1.15 Area of Effect.",
+          "description": "Smoke Bomb gains +1.15 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Smoke Bomb gains +1.65 Area of Effect.",
+          "description": "Smoke Bomb gains +1.65 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Smoke Bomb gains +2 Area of Effect.",
+          "description": "Smoke Bomb gains +2 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -5028,22 +5028,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Multihit gains +0.5 Range. Backstab gains +1 Range.",
+          "description": "Multihit gains +0.5 </br>Range. Backstab gains +1 </br>Range.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Multihit gains +0.85 Range. Backstab gains +1.7 Range.",
+          "description": "Multihit gains +0.85 </br>Range. Backstab gains +1.7 </br>Range.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Multihit gains +1.2 Range. Backstab gains +2.4 Range.",
+          "description": "Multihit gains +1.2 </br>Range. Backstab gains +2.4 </br>Range.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Multihit gains +1.5 Range. Backstab gains +3 Range.",
+          "description": "Multihit gains +1.5 </br>Range. Backstab gains +3 </br>Range.",
           "abilities": []
         }
       ],
@@ -5075,7 +5075,7 @@
         },
         {
           "threshold": 5,
-          "description": "Lacerate gains +2 hits, and becomes 50% faster. </br> Momentum requires -3 hits to gain a stack.",
+          "description": "Lacerate gains +2 hits, and becomes 50% faster.  Momentum requires -3 hits to gain a stack.",
           "abilities": [
             {
               "base_abil": "Spin Attack",
@@ -5091,7 +5091,7 @@
         },
         {
           "threshold": 15,
-          "description": "Lacerate gains +3 hits, and becomes 50% faster. </br> Momentum requires -3 hits to gain a stack.",
+          "description": "Lacerate gains +3 hits, and becomes 50% faster.  Momentum requires -3 hits to gain a stack.",
           "abilities": [
             {
               "base_abil": "Spin Attack",
@@ -5119,12 +5119,12 @@
         },
         {
           "threshold": 5,
-          "description": "Vanish's cooldown is reduced by -1.25s. </br> Satsujin's cooldown is reduced by -5s.",
+          "description": "Vanish's cooldown is reduced by -1.25s.  Satsujin's cooldown is reduced by -5s.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Vanish's cooldown is reduced by -1.75s. </br> Satsujin's cooldown is reduced by -5s.",
+          "description": "Vanish's cooldown is reduced by -1.75s.  Satsujin's cooldown is reduced by -5s.",
           "abilities": []
         }
       ]
@@ -5136,17 +5136,17 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Aerial Ace gains +1.25s Duration.",
+          "description": "Aerial Ace gains +1.25s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Aerial Ace gains +2s Duration.",
+          "description": "Aerial Ace gains +2s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 75,
-          "description": "Aerial Ace gains +2.5s Duration.",
+          "description": "Aerial Ace gains +2.5s </br>Duration.",
           "abilities": []
         }
       ],
@@ -5161,7 +5161,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "You may store +15 more Tricks \ue03a on enemies.",
+          "description": "You may store +15 more Tricks on enemies.",
           "abilities": [
             {
               "base_abil": "Malicious Mockery",
@@ -5187,7 +5187,7 @@
         },
         {
           "threshold": 15,
-          "description": "You may store +20 more Tricks \ue03a on enemies.",
+          "description": "You may store +20 more Tricks on enemies.",
           "abilities": [
             {
               "base_abil": "Malicious Mockery",
@@ -5213,7 +5213,7 @@
         },
         {
           "threshold": 75,
-          "description": "You may store +25 more Tricks \ue03a on enemies.",
+          "description": "You may store +25 more Tricks on enemies.",
           "abilities": [
             {
               "base_abil": "Malicious Mockery",
@@ -5323,7 +5323,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Aerial Ace gains +5% Damage Bonus.",
+          "description": "Aerial Ace gains +5% </br>Damage Bonus.",
           "abilities": [
             {
               "base_abil": "Aerial Ace",
@@ -5336,7 +5336,7 @@
         },
         {
           "threshold": 15,
-          "description": "Aerial Ace gains +8% Damage Bonus.",
+          "description": "Aerial Ace gains +8% </br>Damage Bonus.",
           "abilities": [
             {
               "base_abil": "Aerial Ace",
@@ -5349,7 +5349,7 @@
         },
         {
           "threshold": 75,
-          "description": "Aerial Ace gains +10% Damage Bonus.",
+          "description": "Aerial Ace gains +10% </br>Damage Bonus.",
           "abilities": [
             {
               "base_abil": "Aerial Ace",
@@ -5397,22 +5397,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Bamboozle gains +1 Area of Effect.",
+          "description": "Bamboozle gains +1 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Bamboozle gains +1.75 Area of Effect.",
+          "description": "Bamboozle gains +1.75 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Bamboozle gains +2.5 Area of Effect.",
+          "description": "Bamboozle gains +2.5 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Bamboozle gains +3 Area of Effect.",
+          "description": "Bamboozle gains +3 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -5508,7 +5508,7 @@
         },
         {
           "threshold": 5,
-          "description": "Noxious Haze can benefit from +1 debuff. </br> Summon +1 additional Mirror Clone with Mirror Image.",
+          "description": "Noxious Haze can benefit from +1 debuff.  Summon +1 additional Mirror Clone with Mirror Image.",
           "abilities": [
             {
               "base_abil": "Smoke Bomb",
@@ -5542,7 +5542,7 @@
         },
         {
           "threshold": 15,
-          "description": "Noxious Haze can benefit from +1 debuff, and grants +1% damage per debuff. </br> Summon +1 additional Mirror Clone with Mirror Image.",
+          "description": "Noxious Haze can benefit from +1 debuff, and grants +1% damage per debuff.  Summon +1 additional Mirror Clone with Mirror Image.",
           "abilities": [
             {
               "base_abil": "Smoke Bomb",
@@ -5627,12 +5627,12 @@
         },
         {
           "threshold": 5,
-          "description": "Your Ultimate charges 20% faster. </br> Pierce the Veil lasts +4s longer. Another Self has +30% more health. Serpent's Garden lasts +4s longer.",
+          "description": "Your Ultimate charges 20% faster.  Pierce the Veil lasts +4s longer. Another Self has +30% more health. Serpent's Garden lasts +4s longer.",
           "abilities": []
         },
         {
           "threshold": 15,
-          "description": "Your Ultimate charges 25% faster. </br> Pierce the Veil lasts +4s longer. Another Self has +30% more health. Serpent's Garden lasts +4s longer.",
+          "description": "Your Ultimate charges 25% faster.  Pierce the Veil lasts +4s longer. Another Self has +30% more health. Serpent's Garden lasts +4s longer.",
           "abilities": []
         }
       ]
@@ -5650,24 +5650,18 @@
           "abilities": [
             {
               "base_abil": "Uproot",
+              "effects": [],
               "properties": {
                 "lunatic_damage": 2.25,
-                "fanatic_res": 3.75,
-                "heretic_speed": 7.5
+                "fanatic_res": 3.0,
+                "heretic_speed": 7.5,
+                "lunatic_per_mantra": 0.0225,
+                "fanatic_per_mantra": 0.03,
+                "heretic_per_mantra": 0.075
               },
-              "effects": []
-            },
-            {
-              "base_abil": "Uproot",
               "dependencies": [
-                "Meticulous Act"
-              ],
-              "properties": {
-                "lunatic_damage": 3.75,
-                "fanatic_res": 3,
-                "heretic_speed": 6
-              },
-              "effects": []
+                "Mystic Masks"
+              ]
             }
           ]
         },
@@ -5677,24 +5671,18 @@
           "abilities": [
             {
               "base_abil": "Uproot",
+              "effects": [],
               "properties": {
-                "lunatic_damage": 3,
-                "fanatic_res": 5,
-                "heretic_speed": 10
+                "lunatic_damage": 3.0,
+                "fanatic_res": 4.0,
+                "heretic_speed": 10.0,
+                "lunatic_per_mantra": 0.03,
+                "fanatic_per_mantra": 0.04000000000000001,
+                "heretic_per_mantra": 0.1
               },
-              "effects": []
-            },
-            {
-              "base_abil": "Uproot",
               "dependencies": [
-                "Meticulous Act"
-              ],
-              "properties": {
-                "lunatic_damage": 5,
-                "fanatic_res": 4,
-                "heretic_speed": 8
-              },
-              "effects": []
+                "Mystic Masks"
+              ]
             }
           ]
         },
@@ -5704,24 +5692,18 @@
           "abilities": [
             {
               "base_abil": "Uproot",
+              "effects": [],
               "properties": {
                 "lunatic_damage": 3.75,
-                "fanatic_res": 6.25,
-                "heretic_speed": 12.5
+                "fanatic_res": 5.0,
+                "heretic_speed": 12.5,
+                "lunatic_per_mantra": 0.0375,
+                "fanatic_per_mantra": 0.05,
+                "heretic_per_mantra": 0.125
               },
-              "effects": []
-            },
-            {
-              "base_abil": "Uproot",
               "dependencies": [
-                "Meticulous Act"
-              ],
-              "properties": {
-                "lunatic_damage": 6.25,
-                "fanatic_res": 5,
-                "heretic_speed": 10
-              },
-              "effects": []
+                "Mystic Masks"
+              ]
             }
           ]
         }
@@ -5757,28 +5739,82 @@
       ]
     },
     {
-      "displayName": "Aspect of Seismic Sense",
+      "displayName": "Aspect of the Eternal Dance",
       "id": 2,
       "tier": "Fabled",
       "tiers": [
         {
           "threshold": 1,
-          "description": "Nature's Jolt gains +1.25 Area of Effect.",
-          "abilities": []
+          "description": "Increase the maximum Ritual Circle hits and radius by +1.",
+          "abilities": [
+            {
+              "base_abil": "Ritual Circle",
+              "effects": [
+                {
+                  "type": "stat_scaling",
+                  "slider": true,
+                  "slider_name": "Ritual Circle Hits",
+                  "round": false,
+                  "slider_max": 1,
+                  "behavior": "modify"
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Ritual Circle"
+              ]
+            }
+          ]
         },
         {
           "threshold": 15,
-          "description": "Nature's Jolt gains +2.25 Area of Effect.",
-          "abilities": []
+          "description": "Increase the maximum Ritual Circle hits and radius by +2.",
+          "abilities": [
+            {
+              "base_abil": "Ritual Circle",
+              "effects": [
+                {
+                  "type": "stat_scaling",
+                  "slider": true,
+                  "slider_name": "Ritual Circle Hits",
+                  "round": false,
+                  "slider_max": 2,
+                  "behavior": "modify"
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Ritual Circle"
+              ]
+            }
+          ]
         },
         {
           "threshold": 75,
-          "description": "Nature's Jolt gains +3 Area of Effect.",
-          "abilities": []
+          "description": "Increase the maximum Ritual Circle hits and radius by +3.",
+          "abilities": [
+            {
+              "base_abil": "Ritual Circle",
+              "effects": [
+                {
+                  "type": "stat_scaling",
+                  "slider": true,
+                  "slider_name": "Ritual Circle Hits",
+                  "round": false,
+                  "slider_max": 3,
+                  "behavior": "modify"
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Ritual Circle"
+              ]
+            }
+          ]
         }
       ],
       "aliases": [
-        "naturesJoltAOE"
+        "Aspect of Seismic Sense"
       ]
     },
     {
@@ -5788,73 +5824,55 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Frog Dance gains +2 bounces.",
+          "description": "Frog Dance gains +20% velocity.",
           "abilities": [
             {
               "base_abil": "Haul",
+              "effects": [],
+              "properties": {
+                "velocity_bonus": 20
+              },
               "dependencies": [
                 "Frog Dance"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "target_part": "Total Damage",
-                  "base_spell": 2,
-                  "hits": {
-                    "Hop Damage": 2
-                  }
-                }
               ]
             }
           ]
         },
         {
           "threshold": 15,
-          "description": "Frog Dance gains +3 bounces.",
+          "description": "Frog Dance gains +30% velocity.",
           "abilities": [
             {
               "base_abil": "Haul",
+              "effects": [],
+              "properties": {
+                "velocity_bonus": 30
+              },
               "dependencies": [
                 "Frog Dance"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "target_part": "Total Damage",
-                  "base_spell": 2,
-                  "hits": {
-                    "Hop Damage": 3
-                  }
-                }
               ]
             }
           ]
         },
         {
           "threshold": 75,
-          "description": "Frog Dance gains +4 bounces.",
+          "description": "Frog Dance gains +40% velocity.",
           "abilities": [
             {
               "base_abil": "Haul",
+              "effects": [],
+              "properties": {
+                "velocity_bonus": 40
+              },
               "dependencies": [
                 "Frog Dance"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "target_part": "Total Damage",
-                  "base_spell": 2,
-                  "hits": {
-                    "Hop Damage": 4
-                  }
-                }
               ]
             }
           ]
         }
       ],
       "aliases": [
-        "frogDanceCount"
+        "frogDanceVelocity"
       ]
     },
     {
@@ -5864,22 +5882,55 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Tribal Chants gain +2 Area of Effect.",
-          "abilities": []
+          "description": "Tribal Chants applies stacks 0.1s faster.",
+          "abilities": [
+            {
+              "base_abil": "Uproot",
+              "effects": [],
+              "properties": {
+                "chant_interval": -0.1
+              },
+              "dependencies": [
+                "Tribal Chants"
+              ]
+            }
+          ]
         },
         {
           "threshold": 15,
-          "description": "Tribal Chants gain +3.35 Area of Effect.",
-          "abilities": []
+          "description": "Tribal Chants applies stacks 0.15s faster.",
+          "abilities": [
+            {
+              "base_abil": "Uproot",
+              "effects": [],
+              "properties": {
+                "chant_interval": -0.15
+              },
+              "dependencies": [
+                "Tribal Chants"
+              ]
+            }
+          ]
         },
         {
           "threshold": 75,
-          "description": "Tribal Chants gain +4 Area of Effect.",
-          "abilities": []
+          "description": "Tribal Chants applies stacks 0.2s faster.",
+          "abilities": [
+            {
+              "base_abil": "Uproot",
+              "effects": [],
+              "properties": {
+                "chant_interval": -0.2
+              },
+              "dependencies": [
+                "Tribal Chants"
+              ]
+            }
+          ]
         }
       ],
       "aliases": [
-        "chantAOE"
+        "chantRate"
       ]
     },
     {
@@ -5889,7 +5940,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Puppet Master gains +1 Puppets. </br><span class='mc-white'>Total Damage</span>: -2% (of your DPS)   </br>&emsp;(<span class='eDam'>Earth</span>: -1%)",
+          "description": "Puppet Master gains +1 Puppets. </br><span class='mc-white'>Total Damage</span>: -2% (of your DPS) </br>&emsp;(<span class='eDam'>Earth</span>: -1%)",
           "abilities": [
             {
               "base_abil": "Puppet Master",
@@ -5925,7 +5976,7 @@
         },
         {
           "threshold": 15,
-          "description": "Puppet Master gains +2 Puppets. </br><span class='mc-white'>Total Damage</span>: -4% (of your DPS)   </br>&emsp;(<span class='aDam'>Air</span>: -1%)   </br>&emsp;(<span class='eDam'>Earth</span>: -1%)",
+          "description": "Puppet Master gains +2 Puppets. </br><span class='mc-white'>Total Damage</span>: -4% (of your DPS) </br>&emsp;(<span class='aDam'>Air</span>: -1%) </br>&emsp;(<span class='eDam'>Earth</span>: -1%)",
           "abilities": [
             {
               "base_abil": "Puppet Master",
@@ -5961,7 +6012,7 @@
         },
         {
           "threshold": 75,
-          "description": "Puppet Master gains +3 Puppets. </br><span class='mc-white'>Total Damage</span>: -6% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: -1%)   </br>&emsp;(<span class='aDam'>Air</span>: -1%)   </br>&emsp;(<span class='eDam'>Earth</span>: -1%)",
+          "description": "Puppet Master gains +3 Puppets. </br><span class='mc-white'>Total Damage</span>: -6% (of your DPS) </br>&emsp;(<span class='nDam'>Damage</span>: -1%) </br>&emsp;(<span class='aDam'>Air</span>: -1%) </br>&emsp;(<span class='eDam'>Earth</span>: -1%)",
           "abilities": [
             {
               "base_abil": "Puppet Master",
@@ -6007,7 +6058,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Bullwhip gains +4% Damage Bonus to Summons.",
+          "description": "Bullwhip gains +4% </br>Damage Bonus to Summons.",
           "abilities": [
             {
               "base_abil": "Bullwhip",
@@ -6020,7 +6071,7 @@
         },
         {
           "threshold": 5,
-          "description": "Bullwhip gains +6% Damage Bonus to Summons.",
+          "description": "Bullwhip gains +6% </br>Damage Bonus to Summons.",
           "abilities": [
             {
               "base_abil": "Bullwhip",
@@ -6033,7 +6084,7 @@
         },
         {
           "threshold": 30,
-          "description": "Bullwhip gains +8% Damage Bonus to Summons.",
+          "description": "Bullwhip gains +8% </br>Damage Bonus to Summons.",
           "abilities": [
             {
               "base_abil": "Bullwhip",
@@ -6046,7 +6097,7 @@
         },
         {
           "threshold": 150,
-          "description": "Bullwhip gains +10% Damage Bonus to Summons.",
+          "description": "Bullwhip gains +10% </br>Damage Bonus to Summons.",
           "abilities": [
             {
               "base_abil": "Bullwhip",
@@ -6069,22 +6120,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Totem gains +1 Area of Effect. </br> Eldritch Call gains +1.25 Area of Effect.",
+          "description": "Totem gains +1 </br>Area of Effect.  Eldritch Call gains +1.25 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Totem gains +1.75 Area of Effect. </br> Eldritch Call gains +2 Area of Effect.",
+          "description": "Totem gains +1.75 </br>Area of Effect.  Eldritch Call gains +2 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Totem gains +2.5 Area of Effect. </br> Eldritch Call gains +2.5 Area of Effect.",
+          "description": "Totem gains +2.5 </br>Area of Effect.  Eldritch Call gains +2.5 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Totem gains +3 Area of Effect. </br> Eldritch Call gains +3 Area of Effect.",
+          "description": "Totem gains +3 </br>Area of Effect.  Eldritch Call gains +3 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -6129,22 +6180,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Totem gains +10s Duration.",
+          "description": "Totem gains +10s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Totem gains +18s Duration.",
+          "description": "Totem gains +18s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Totem gains +24s Duration.",
+          "description": "Totem gains +24s </br>Duration.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Totem gains +30s Duration.",
+          "description": "Totem gains +30s </br>Duration.",
           "abilities": []
         }
       ],
@@ -6189,22 +6240,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Uproot and Haunting Memory gain +2 Range.",
+          "description": "Uproot and Haunting Memory gain +2 </br>Range.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Uproot and Haunting Memory gain +3.5 Range.",
+          "description": "Uproot and Haunting Memory gain +3.5 </br>Range.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Uproot and Haunting Memory gain +5 Range.",
+          "description": "Uproot and Haunting Memory gain +5 </br>Range.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Uproot and Haunting Memory gain +6 Range.",
+          "description": "Uproot and Haunting Memory gain +6 </br>Range.",
           "abilities": []
         }
       ],
@@ -6219,22 +6270,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Totemic Smash gains +1.25 Area of Effect.",
+          "description": "Totemic Smash gains +1.25 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Totemic Smash gains +2.25 Area of Effect.",
+          "description": "Totemic Smash gains +2.25 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Totemic Smash gains +3.25 Area of Effect.",
+          "description": "Totemic Smash gains +3.25 </br>Area of Effect.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Totemic Smash gains +4 Area of Effect.",
+          "description": "Totemic Smash gains +4 </br>Area of Effect.",
           "abilities": []
         }
       ],
@@ -6249,18 +6300,91 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Awakened requires -30 mana to activate.",
-          "abilities": []
+          "description": "Eye of the Storm strikes 0.5s faster.",
+          "abilities": [
+            {
+              "base_abil": "Eye of the Storm",
+              "effects": [],
+              "properties": {
+                "rate": 0.33333333333333337
+              },
+              "dependencies": [
+                "Eye of the Storm"
+              ]
+            }
+          ]
         },
         {
           "threshold": 5,
-          "description": "Awakened requires -30 mana to activate. Awakened gains +10s Duration.",
-          "abilities": []
+          "description": "Eye of the Storm strikes 0.5s faster.  Increase your maximum Surge by +1.",
+          "abilities": [
+            {
+              "base_abil": "Eye of the Storm",
+              "effects": [
+                {
+                  "type": "stat_scaling",
+                  "slider": true,
+                  "slider_name": "Surge",
+                  "round": false,
+                  "slider_max": 1,
+                  "behavior": "modify"
+                }
+              ],
+              "properties": {
+                "rate": 0.33333333333333337
+              },
+              "dependencies": [
+                "Eye of the Storm"
+              ]
+            }
+          ]
         },
         {
           "threshold": 15,
-          "description": "Awakened requires -50 mana to activate. Awakened gains +15s Duration.",
-          "abilities": []
+          "description": "Eye of the Storm strikes 0.5s faster.  Increase your maximum Surge by +1.  Increase the damage of your Ritual Circle.  </br><span class='mc-white'>Total Damage</span>: +10% (of your DPS) </br>&emsp;(<span class='nDam'>Damage</span>: +10%)",
+          "abilities": [
+            {
+              "base_abil": "Eye of the Storm",
+              "effects": [
+                {
+                  "type": "stat_scaling",
+                  "slider": true,
+                  "slider_name": "Surge",
+                  "round": false,
+                  "slider_max": 1,
+                  "behavior": "modify"
+                }
+              ],
+              "properties": {
+                "rate": 0.33333333333333337
+              },
+              "dependencies": [
+                "Eye of the Storm"
+              ]
+            },
+            {
+              "base_abil": "Ritual Circle",
+              "effects": [
+                {
+                  "type": "add_spell_prop",
+                  "base_spell": 18,
+                  "target_part": "Single Hit",
+                  "multipliers": [
+                    10,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Ritual Circle"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6271,7 +6395,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Blood Sorrow gains +1s Duration.",
+          "description": "Blood Sorrow gains +1s </br>Duration.",
           "abilities": [
             {
               "base_abil": "Blood Sorrow",
@@ -6284,7 +6408,7 @@
         },
         {
           "threshold": 5,
-          "description": "Blood Sorrow gains +1s Duration. </br> Eldritch Call summons +1 tentacle, and strikes 25% faster.",
+          "description": "Blood Sorrow gains +1s </br>Duration.  Eldritch Call summons +1 tentacle, and strikes 25% faster.",
           "abilities": [
             {
               "base_abil": "Blood Sorrow",
@@ -6319,7 +6443,7 @@
         },
         {
           "threshold": 15,
-          "description": "Blood Sorrow gains +2s Duration. </br> Eldritch Call summons +1 tentacle, and strikes 25% faster.",
+          "description": "Blood Sorrow gains +2s </br>Duration.  Eldritch Call summons +1 tentacle, and strikes 25% faster.",
           "abilities": [
             {
               "base_abil": "Blood Sorrow",
@@ -6361,7 +6485,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Triple Totem gains +1 Totem. Totem and Aura will do 55% less damage. </br> Regeneration and Sacrificial Shrine will heal 55% less health.",
+          "description": "Triple Totem gains +1 Totem. Totem and Aura will do 55% less damage.  Regeneration and Sacrificial Shrine will heal 55% less health.",
           "abilities": [
             {
               "base_abil": "Totem",
@@ -6414,7 +6538,7 @@
         },
         {
           "threshold": 5,
-          "description": "Triple Totem gains +1 Totem. Totem and Aura will do 55% less damage. </br> Regeneration and Sacrificial Shrine will heal 55% less health. </br> Hummingbird's Song gains +1 Hummingbird.",
+          "description": "Triple Totem gains +1 Totem. Totem and Aura will do 55% less damage.  Regeneration and Sacrificial Shrine will heal 55% less health.  Hummingbird's Song gains +1 Hummingbird.",
           "abilities": [
             {
               "base_abil": "Totem",
@@ -6464,7 +6588,7 @@
               ]
             },
             {
-              "base_abil": "Hummingbirds' Song",
+              "base_abil": "Hummingbird's Song",
               "properties": {
                 "count": 1
               },
@@ -6474,7 +6598,7 @@
         },
         {
           "threshold": 15,
-          "description": "Triple Totem gains +1 Totem. Totem and Aura will do 55% less damage. </br> Regeneration and Sacrificial Shrine will heal 55% less health. </br> Hummingbird's Song gains +1 Hummingbird. Hummingbirds attack 25% faster.",
+          "description": "Triple Totem gains +1 Totem. Totem and Aura will do 55% less damage.  Regeneration and Sacrificial Shrine will heal 55% less health.  Hummingbird's Song gains +1 Hummingbird. Hummingbirds attack 25% faster.",
           "abilities": [
             {
               "base_abil": "Totem",
@@ -6524,7 +6648,7 @@
               ]
             },
             {
-              "base_abil": "Hummingbirds' Song",
+              "base_abil": "Hummingbird's Song",
               "properties": {
                 "count": 1
               },
@@ -6534,7 +6658,7 @@
                   "bonuses": [
                     {
                       "type": "prop",
-                      "abil": "Hummingbirds' Song",
+                      "abil": "Hummingbird's Song",
                       "name": "attack_frequency",
                       "mult": true,
                       "value": 1.25
@@ -6554,22 +6678,22 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Your Hummingbird Carvings attack enemies for +3.5s and gain +2.5 Vision.",
+          "description": "Your Hummingbird Carvings attack enemies for +3.5s and gain +2.5 </br>Vision.",
           "abilities": []
         },
         {
           "threshold": 5,
-          "description": "Your Hummingbird Carvings attack enemies for +6s and gain +4.5 Vision.",
+          "description": "Your Hummingbird Carvings attack enemies for +6s and gain +4.5 </br>Vision.",
           "abilities": []
         },
         {
           "threshold": 30,
-          "description": "Your Hummingbird Carvings attack enemies for +8.5s and gain +6.5 Vision.",
+          "description": "Your Hummingbird Carvings attack enemies for +8.5s and gain +6.5 </br>Vision.",
           "abilities": []
         },
         {
           "threshold": 150,
-          "description": "Your Hummingbird Carvings attack enemies for +10s and gain +8 Vision.",
+          "description": "Your Hummingbird Carvings attack enemies for +10s and gain +8 </br>Vision.",
           "abilities": []
         }
       ],
@@ -6578,33 +6702,125 @@
       ]
     },
     {
-      "displayName": "Aspect of Summer Storms",
+      "displayName": "Aspect of Damnation",
       "id": 17,
       "tier": "Legendary",
       "tiers": [
         {
           "threshold": 1,
-          "description": "Increase Storm Dance's pull strength by 10%.",
-          "abilities": []
+          "description": "Increase Malediction's damage. </br><span class='mc-white'>Total Damage</span>: +4% (of your DPS, as Main Attack damage) (Damage: +4%)",
+          "abilities": [
+            {
+              "base_abil": "Malediction",
+              "effects": [
+                {
+                  "type": "add_spell_prop",
+                  "base_spell": 17,
+                  "target_part": "Explosion Damage",
+                  "multipliers": [
+                    4,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Malediction"
+              ]
+            }
+          ]
         },
         {
           "threshold": 5,
-          "description": "Increase Storm Dance's pull strength by 15%.",
-          "abilities": []
+          "description": "Increase Malediction's damage. </br><span class='mc-white'>Total Damage</span>: +6% (of your DPS, as Main Attack damage) (Damage: +6%)",
+          "abilities": [
+            {
+              "base_abil": "Malediction",
+              "effects": [
+                {
+                  "type": "add_spell_prop",
+                  "base_spell": 17,
+                  "target_part": "Explosion Damage",
+                  "multipliers": [
+                    6,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Malediction"
+              ]
+            }
+          ]
         },
         {
           "threshold": 30,
-          "description": "Increase Storm Dance's pull strength by 20%.",
-          "abilities": []
+          "description": "Increase Malediction's damage. </br><span class='mc-white'>Total Damage</span>: +8% (of your DPS, as Main Attack damage) (Damage: +8%)",
+          "abilities": [
+            {
+              "base_abil": "Malediction",
+              "effects": [
+                {
+                  "type": "add_spell_prop",
+                  "base_spell": 17,
+                  "target_part": "Explosion Damage",
+                  "multipliers": [
+                    8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Malediction"
+              ]
+            }
+          ]
         },
         {
           "threshold": 150,
-          "description": "Increase Storm Dance's pull strength by 25%.",
-          "abilities": []
+          "description": "Increase Malediction's damage. </br><span class='mc-white'>Total Damage</span>: +10% (of your DPS, as Main Attack damage) (Damage: +10%)",
+          "abilities": [
+            {
+              "base_abil": "Malediction",
+              "effects": [
+                {
+                  "type": "add_spell_prop",
+                  "base_spell": 17,
+                  "target_part": "Explosion Damage",
+                  "multipliers": [
+                    10,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "properties": {},
+              "dependencies": [
+                "Malediction"
+              ]
+            }
+          ]
         }
       ],
       "aliases": [
-        "stormDancePull"
+        "Aspect of Summer Storms"
       ]
     },
     {
@@ -6784,101 +7000,77 @@
       ]
     },
     {
-      "displayName": "Aspect of the Blurred Line",
+      "displayName": "Aspect of Bile Waters",
       "id": 22,
       "tier": "Legendary",
       "tiers": [
         {
           "threshold": 1,
-          "description": "Corporeal Manifestation spins 25% faster.",
+          "description": "Corroded is +0.5% stronger.",
           "abilities": [
             {
-              "base_abil": "Uproot",
+              "base_abil": "Acid Rain",
+              "effects": [],
+              "properties": {
+                "damage_bonus": 0.5
+              },
               "dependencies": [
-                "Corporeal Manifestation"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "target_part": "Rotation DPS",
-                  "base_spell": 4,
-                  "hits": {
-                    "Mask Throw": 0.25
-                  }
-                }
+                "Acid Rain"
               ]
             }
           ]
         },
         {
           "threshold": 5,
-          "description": "Corporeal Manifestation spins 40% faster.",
+          "description": "Corroded is +1% stronger.",
           "abilities": [
             {
-              "base_abil": "Uproot",
+              "base_abil": "Acid Rain",
+              "effects": [],
+              "properties": {
+                "damage_bonus": 1.0
+              },
               "dependencies": [
-                "Corporeal Manifestation"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "target_part": "Rotation DPS",
-                  "base_spell": 4,
-                  "hits": {
-                    "Mask Throw": 0.4
-                  }
-                }
+                "Acid Rain"
               ]
             }
           ]
         },
         {
           "threshold": 30,
-          "description": "Corporeal Manifestation spins 55% faster.",
+          "description": "Corroded is +1.5% stronger.",
           "abilities": [
             {
-              "base_abil": "Uproot",
+              "base_abil": "Acid Rain",
+              "effects": [],
+              "properties": {
+                "damage_bonus": 1.5
+              },
               "dependencies": [
-                "Corporeal Manifestation"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "target_part": "Rotation DPS",
-                  "base_spell": 4,
-                  "hits": {
-                    "Mask Throw": 0.55
-                  }
-                }
+                "Acid Rain"
               ]
             }
           ]
         },
         {
           "threshold": 150,
-          "description": "Corporeal Manifestation spins 65% faster.",
+          "description": "Corroded is +2% stronger.",
           "abilities": [
             {
-              "base_abil": "Uproot",
+              "base_abil": "Acid Rain",
+              "effects": [],
+              "properties": {
+                "damage_bonus": 2.0
+              },
               "dependencies": [
-                "Corporeal Manifestation"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "target_part": "Rotation DPS",
-                  "base_spell": 4,
-                  "hits": {
-                    "Mask Throw": 0.65
-                  }
-                }
+                "Acid Rain"
               ]
             }
           ]
         }
       ],
       "aliases": [
-        "corporealManifestationSpeed"
+        "Aspect of the Blurred Line"
       ]
     },
     {
@@ -6888,7 +7080,7 @@
       "tiers": [
         {
           "threshold": 1,
-          "description": "Fortified Formation grants +8% Resistance.",
+          "description": "Fortified Formation grants +8% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Crimson Effigy",
@@ -6901,7 +7093,7 @@
         },
         {
           "threshold": 5,
-          "description": "Fortified Formation grants +13% Resistance.",
+          "description": "Fortified Formation grants +13% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Crimson Effigy",
@@ -6914,7 +7106,7 @@
         },
         {
           "threshold": 30,
-          "description": "Fortified Formation grants +17.5% Resistance.",
+          "description": "Fortified Formation grants +17.5% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Crimson Effigy",
@@ -6927,7 +7119,7 @@
         },
         {
           "threshold": 150,
-          "description": "Fortified Formation grants +20% Resistance.",
+          "description": "Fortified Formation grants +20% ❁ Resistance.",
           "abilities": [
             {
               "base_abil": "Crimson Effigy",
@@ -6955,44 +7147,32 @@
         },
         {
           "threshold": 5,
-          "description": "Your Ultimate charges 20% faster. </br> Patchwork Abomination lasts +6s longer. Sundered Skies' delay between lightning strikes is -0.3s shorter. Monument to Gloom lasts +30% longer.",
+          "description": "Your Ultimate charges 20% faster.  Patchwork Abomination lasts +6s longer. Awakened lasts 5s longer. Monument to Gloom lasts +30% longer.",
           "abilities": [
             {
-              "base_abil": "Sundered Skies",
+              "base_abil": "Uproot",
+              "effects": [],
+              "properties": {
+                "awakened_duration": 5
+              },
               "dependencies": [
-                "Sundered Skies"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "base_spell": 14,
-                  "target_part": "Thundercloud DPS",
-                  "hits": {
-                    "Thundercloud Hit": 0.25
-                  }
-                }
+                "Awakened"
               ]
             }
           ]
         },
         {
           "threshold": 15,
-          "description": "Your Ultimate charges 25% faster. </br> Patchwork Abomination lasts +6s longer. Sundered Skies' delay between lightning strikes is -0.3s shorter. Monument to Gloom lasts +30% longer.",
+          "description": "Your Ultimate charges 25% faster.  Patchwork Abomination lasts +6s longer. Awakened lasts 5s longer. Monument to Gloom lasts +30% longer.",
           "abilities": [
             {
-              "base_abil": "Sundered Skies",
+              "base_abil": "Uproot",
+              "effects": [],
+              "properties": {
+                "awakened_duration": 5
+              },
               "dependencies": [
-                "Sundered Skies"
-              ],
-              "effects": [
-                {
-                  "type": "add_spell_prop",
-                  "base_spell": 14,
-                  "target_part": "Thundercloud DPS",
-                  "hits": {
-                    "Thundercloud Hit": 0.25
-                  }
-                }
+                "Awakened"
               ]
             }
           ]

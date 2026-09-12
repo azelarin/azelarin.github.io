@@ -2,8 +2,6 @@ import requests
 import json
 import re
 
-from json_diff import json_diff
-
 api_base_url = "https://api.wynncraft.com/v3/ability/tree/"
 def get_tree_data(wynn_class):
     url = api_base_url + wynn_class.lower()
@@ -191,4 +189,3 @@ if __name__ == "__main__":
 
     with open("../data/temp/atree_constants.json", "w") as output_file:
         json.dump(new_tree_data, output_file, indent=4)
-

@@ -14,7 +14,9 @@ def translate_spell_part(id_data, part):
             v = hits_mapping[k]
             if isinstance(v, str):
                 abil_id, propname = v.split('.')
-                hits_mapping[k] = str(id_data[abil_id])+'.'+propname
+                # Melee and elemental mastery use the same reserved IDs in every class.
+                numeric_id = int(abil_id) if abil_id in ('998', '999') else id_data[abil_id]
+                hits_mapping[k] = str(numeric_id)+'.'+propname
     if 'mana_gained' in part:    # Translate parametrized hits...
         val = part['mana_gained']
         if isinstance(val, str):
@@ -65,6 +67,11 @@ def translate_effect(id_data, effect):
             if isinstance(val, str):
                 abil_id, propname = val.split('.')
                 effect["max"] = str(id_data[abil_id])+'.'+propname
+        if "offset" in effect:
+            val = effect["offset"]
+            if isinstance(val, str):
+                abil_id, propname = val.split('.')
+                effect["offset"] = str(id_data[abil_id])+'.'+propname
         if "slider_max" in effect:
             val = effect["slider_max"]
             if isinstance(val, str):

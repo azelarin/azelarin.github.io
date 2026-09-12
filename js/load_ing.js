@@ -1,4 +1,4 @@
-const ING_DB_VERSION = 53;
+const ING_DB_VERSION = 54;
 
 /*
  * Non exhaustive list of dependencies (add them here if you see them!)
@@ -158,4 +158,3 @@ function clean_ing(ing) {
 }
 
 const ingredient_loader = new IngredientLoader('ing_db', ['ing_db', 'recipe_db'], ING_DB_VERSION);
-

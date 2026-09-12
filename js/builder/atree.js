@@ -60,6 +60,7 @@ add_spell_prop: {
     hide:           Optional[str]   // Modify this part to be hidden.
     ignored_mults:  List[str]       // Damage multiplier effects to ignore.
     mana_gained:    Optional[int]   // The amount of mana gained on spell use, used for mana calculator.
+    mana_triggers:  Optional[list]  // Cooldown-limited refunds: {fraction, every, cooldown}.
 }
 
 convert_spell_conv: {
@@ -73,6 +74,7 @@ raw_stat: {
     type:           "raw_stat"
     toggle:         Optional[bool | str]    // default: false; true means create anon. toggle,
                                             // string value means bind to (or create) named button
+    toggle_group:   Optional[str]           // Only one button in a group can be active (e.g. Masks).
     behavior:       Optional[str]           // One of: "merge", "modify". default: merge
                                             //     merge: add if exist, make new part if not exist
                                             //     modify: increment existing part. do nothing if not exist
@@ -87,6 +89,7 @@ stat_bonus: {
 stat_scaling: {
   type: "stat_scaling",
   slider: bool,
+  toggle: Optional[str],                    // Apply scaling only while this named toggle is active.
   positive: bool                            // True to keep stat above 0. False to ignore floor. Default: True for normal, False for scaling
   slider_name: Optional[str],
   slider_step: Optional[float],
@@ -110,7 +113,9 @@ stat_scaling: {
                                             // 3. Omitted. no output (useful for modifying slider only without input or output)
   requirement:  Optional[float]             // The minimum requirement for a slider to start scaling.
   scaling: Optional[list[float]]            // One float for each input. Sums into output.
+  offset: Optional[float | str]             // Added to the scaled result (can reference an ability property).
   max: float                                // Hardcap on this effect (slider value * slider_step). Can be negative if scaling is negative
+  max_mult: Optional[float]                 // Multiplier on the resolved cap, including ability upgrades.
 }
 scaling_target: {
   type: "stat" | "prop",
@@ -170,7 +175,7 @@ const default_abils = {
         display_name: "Shaman Melee",
         id: 999,
         desc: "Shaman basic attack.",
-        properties: {range: 32.25, speed: 0},
+        properties: {range: 32.25, speed: 0, extra_beams: 0},
         effects: [default_spells.relik[0]]
     }, elem_mastery_abil ],
 };
@@ -296,8 +301,11 @@ const atree_state_node = new (class extends ComputeNode {
  *
  * Return: [yes/no, hard error, reason]
  */
-function abil_can_activate(atree_node, atree_state, reachable, archetype_count, points_remain) {
+function abil_can_activate(atree_node, atree_state, reachable, archetype_count, points_remain, level = 121) {
     const {parents, ability} = atree_node;
+    if (ability.level_req && level < ability.level_req) {
+        return [false, true, 'requires combat level ' + ability.level_req];
+    }
     if (parents.length === 0) {
         return [true, false, ""];
     }
@@ -385,7 +393,7 @@ const atree_validate = new (class extends ComputeNode {
             let _add = [];
             for (const [node, fail_reason, fail_hardness] of atree_to_add) {
                 const {ability} = node;
-                const [success, hard_error, reason] = abil_can_activate(node, atree_state, reachable, archetype_count, 9999);
+                const [success, hard_error, reason] = abil_can_activate(node, atree_state, reachable, archetype_count, 9999, level);
                 if (!success) {
                     _add.push([node, reason, hard_error]);
                     continue;
@@ -421,7 +429,7 @@ const atree_validate = new (class extends ComputeNode {
         // using the "not present" list, highlight one-step reachable nodes.
         for (const node_id of atree_not_present) {
             const node = atree_state.get(node_id);
-            const [success, hard_error, reason] = abil_can_activate(node, atree_state, reachable, archetype_count, ap_left);
+            const [success, hard_error, reason] = abil_can_activate(node, atree_state, reachable, archetype_count, ap_left, level);
             if (success) {
                 draw_atlas_image(node.img, atree_node_atlas_img, [atree_node_atlas_positions[node.ability.display.icon], 1], atree_node_tile_size);
             }
@@ -616,7 +624,8 @@ const atree_make_interactives = new (class extends ComputeNode {
                 if (effect['type'] === "stat_scaling" && effect['slider'] === true) {
                     to_process.push([effect, abil_id, ability]);
                 }
-                if (effect['type'] === "raw_stat" && effect['toggle']) {
+                if ((effect['type'] === "raw_stat" || effect['type'] === "stat_scaling") && effect['toggle']) {
+                    if (effect['type'] === "stat_scaling" && effect['slider'] === true) { continue; }
                     to_process.push([effect, abil_id, ability]);
                 }
             }
@@ -667,10 +676,11 @@ const atree_make_interactives = new (class extends ComputeNode {
                         unprocessed.push([effect, abil_id, ability]);
                     }
                 }
-                if (effect['type'] === "raw_stat" && effect['toggle']) {
+                if (effect['toggle']) {
                     const { toggle: toggle_name } = effect;
                     button_map.set(toggle_name, {
-                        abil: ability
+                        abil: ability,
+                        group: effect.toggle_group ?? button_map.get(toggle_name)?.group
                     });
                 }
             }
@@ -700,6 +710,13 @@ const atree_make_interactives = new (class extends ComputeNode {
                 if (button.classList.contains("toggleOn")) {
                     button.classList.remove("toggleOn");
                 } else {
+                    if (button_info.group) {
+                        for (const other of button_map.values()) {
+                            if (other.group === button_info.group) {
+                                other.button.classList.remove("toggleOn");
+                            }
+                        }
+                    }
                     button.classList.add("toggleOn");
                 }
                 atree_scaling.mark_dirty().update()
@@ -751,6 +768,9 @@ const atree_scaling = new (class extends ComputeNode {
             if (abil.effects.length == 0) { continue; }
 
             for (const effect of abil.effects) {
+                if (effect.toggle && !button_map.get(effect.toggle)?.button.classList.contains("toggleOn")) {
+                    continue;
+                }
                 switch (effect.type) {
                 case 'raw_stat':
                     if (effect.toggle) {
@@ -784,10 +804,10 @@ const atree_scaling = new (class extends ComputeNode {
                         const input_value = slider_val - requirement;
 
                         if (multiplicative) {
-                            total = (((100+atree_translate(atree_merged, scaling[0]))/100) ** parseInt(input_value)-1) * 100;
+                            total = (((100+atree_translate(atree_merged, scaling[0]))/100) ** Number(input_value)-1) * 100;
                         }
                         else {
-                            total = parseInt(input_value) * atree_translate(atree_merged, scaling[0]);
+                            total = Number(input_value) * atree_translate(atree_merged, scaling[0]);
                         }
                         positive = false;
                     }
@@ -806,12 +826,13 @@ const atree_scaling = new (class extends ComputeNode {
                     }
 
                     if ('output' in effect) { // sometimes nodes will modify slider without having effect.
+                        if ('offset' in effect) { total += atree_translate(atree_merged, effect.offset); }
                         if (round) { total = Math.floor(round_near(total)); }
                         if (positive && total < 0) { total = 0; }   // Normal stat scaling will not go negative.
                         if ('max' in effect) {
-                            let effect_max = atree_translate(atree_merged, effect.max);
-                            if (effect_max > 0 && total > effect_max) { total = effect.max; }
-                            if (effect_max < 0 && total < effect_max) { total = effect.max; }
+                            let effect_max = atree_translate(atree_merged, effect.max) * (effect.max_mult ?? 1);
+                            if (effect_max > 0 && total > effect_max) { total = effect_max; }
+                            if (effect_max < 0 && total < effect_max) { total = effect_max; }
                         }
                         if (Array.isArray(effect.output)) {
                             for (const output of effect.output) {
@@ -997,6 +1018,9 @@ const atree_collect_spells = new (class extends ComputeNode {
                     if (mana_gained) { 
                         const val = atree_translate(atree_merged, mana_gained);
                         ret_spell.mana_gained = ret_spell.mana_gained == null ? val : ret_spell.mana_gained + val;
+                    }
+                    if (effect.mana_triggers) {
+                        ret_spell.mana_triggers = (ret_spell.mana_triggers || []).concat(structuredClone(effect.mana_triggers));
                     }
                     if ('display' in effect) {
                         ret_spell.display = effect.display;

@@ -4,7 +4,7 @@
  * Depends on `clen_item` from load_item.js
  */
 
-const TOME_DB_VERSION = 17;
+const TOME_DB_VERSION = 18;
 
 let tomes;
 let tomeMap;
@@ -126,4 +126,3 @@ class TomeLoader extends Loader {
 }
 
 const tome_loader = new TomeLoader('tome_db', ['tome_db'], TOME_DB_VERSION);
-

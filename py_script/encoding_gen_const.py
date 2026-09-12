@@ -121,6 +121,14 @@ override = args.override
 write_premission = args.write
 preview = args.preview
 
+# Fruma introduced level 121 and tier VII powders. Keep older versions' values
+# when explicitly regenerating them, and size new powder IDs for all 35 powders.
+if Version(version) >= Version('2.2.0.0'):
+    bit_len_map['POWDER_TIERS'] = 7
+    bit_len_map['POWDER_ID_BITLEN'] = get_bitlen(len(bit_len_map['POWDER_ELEMENTS']) * 7)
+    bit_len_map['MAX_LEVEL'] = 121
+    bit_len_map['LEVEL_BITLEN'] = get_bitlen(121)
+
 def get_file(path):
     data_path = f'../data/{version}/{path}' 
     with open(data_path, "r") as infile:
@@ -184,6 +192,7 @@ def get_data_versions():
 
 # https://stackoverflow.com/questions/27265939/comparing-python-dictionaries-and-nested-dictionaries
 def diff_versions(prev_version_data, current_version_data, path=""):
+    global write_premission
     diff = False
     for k in prev_version_data:
         if k in current_version_data:
@@ -226,8 +235,8 @@ if __name__ == "__main__":
         print(json.dumps(bit_len_map, indent=2) + "\n")
         print("NOTE: Make sure to review errors and warnings.\n")
 
-    if len(all_data_versions) != curr_version_idx:
-        prev_version = all_data_versions[curr_version_idx + 1] if curr_version_idx == len(all_data_versions) else version
+    if curr_version_idx + 1 < len(all_data_versions):
+        prev_version = all_data_versions[curr_version_idx + 1]
         with open(f"../data/{prev_version}/encoding_consts.json", "r") as infile:
             prev_version_data = json.load(infile)
             if diff_versions(prev_version_data, bit_len_map):

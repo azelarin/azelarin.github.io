@@ -101,7 +101,9 @@ function collectPowders(powders) {
     let order = ENC.POWDER_ELEMENTS.map(e => -1);
     let currOrder = 0;
     for (const powder of powders) {
-        const elementIdx = Math.floor(powder / ENC.POWDER_TIERS);
+        // The live powder IDs always use the current stride, even when the
+        // build is being encoded with an older version's powder tier count.
+        const elementIdx = Math.floor(powder / POWDER_TIERS);
         if (order[elementIdx] < 0) {
             powderChunks[currOrder].push(powder);
             order[elementIdx] = currOrder;

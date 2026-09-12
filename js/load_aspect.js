@@ -1,4 +1,4 @@
-let ASPECT_DB_VERSION = 41;
+let ASPECT_DB_VERSION = 42;
 let aspects = {};
 
 // Map<className, Map<string, AspectSpec>>
@@ -77,4 +77,3 @@ const none_aspect = {
 } 
 
 const aspect_loader = new AspectLoader('aspect_db', classes, ASPECT_DB_VERSION)
-

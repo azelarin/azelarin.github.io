@@ -41,6 +41,22 @@ function manaInputChanged(build, stats) {
     }
 }
 
+// A mask rotation enters Heretic once per three switches. Respect the cooldown
+// instead of treating Strides of Heresy's 30% refill as a refund on every cast.
+function getTriggeredManaRate(cycle, spells, cps, maxMana) {
+    if (!cycle.length) return 0;
+    const counts = new Map();
+    for (const spellId of cycle) counts.set(spellId, (counts.get(spellId) || 0) + 1);
+    let gain = 0;
+    for (const [spellId, count] of counts) {
+        for (const trigger of spells.get(spellId)?.mana_triggers || []) {
+            const rate = cps / 3 * count / cycle.length / trigger.every;
+            gain += Math.min(rate, 1 / trigger.cooldown) * Math.max(0, maxMana) * trigger.fraction;
+        }
+    }
+    return gain;
+}
+
 function calculateMana(cycle, build, stats) {
     const includeManaSteal = document.getElementById('mana-steal-check').checked;
     const includeManaAbility = document.getElementById('mana-ability-check').checked;
@@ -123,7 +139,10 @@ function calculateMana(cycle, build, stats) {
     }
     
     const manaUsed = cps * cycle_cost.reduce((acc, val) => acc + val, 0) / cycle_cost.length / 3;
-    const manaGainedAbility = cps * cycle_gain.reduce((acc, val) => acc + val, 0) / cycle_gain.length / 3;
+    const totalMana = 100 + (stats.get('maxMana') || 0)
+        + Math.floor(skillPointsToPercentage(stats.get('int') ?? 0) * 100);
+    const manaGainedAbility = cps * cycle_gain.reduce((acc, val) => acc + val, 0) / cycle_gain.length / 3
+        + getTriggeredManaRate(cycle.map(cast => cast[2]), atree_collect_spells.value, cps, totalMana);
     const netMana = manaGained + (includeManaAbility ? manaGainedAbility : 0) - manaUsed;
     const bpactUsage = manaUsed - Math.max(manaGained, 0);
     document.getElementById('mana-used').textContent = manaUsed.toFixed(2);
